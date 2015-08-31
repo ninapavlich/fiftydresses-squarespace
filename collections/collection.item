@@ -1,13 +1,14 @@
-{.repeated section items}
+{.section item}
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
-    
-    <div class="content-wrapper">
-      
-      <div class="post{.passthrough?} link-list-item{.end}">
-        
-        <!--POST HEADER-->
-        <header>
+
+  <div class="content-wrapper">
+
+    <div class="post{.passthrough?} link-list-item{.end}">
+
+    <!--POST HEADER-->
+
+      <header>
 
           <span class="article-dateline-above-title">
             <span class="date"><a href="{fullUrl}"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
@@ -24,33 +25,14 @@
           </span>
 
         </header>
-          
-        <!--POST BODY-->
-        
-        {.excerpt?}
-        
-        {.main-image?}
-        <div class="excerpt-thumb">
-          <div class="intrinsic">
-            <div class="content">
-              <a href="{fullUrl}" class="excerpt-image content-fill"><img {@|image-meta} /></a>
-            </div>
-          </div>
-        </div>
-        {.end}
 
-        <div class="body entry-content excerpt-content">{excerpt}<span class="inline-action"><a class="inline-read-more" href="{fullUrl}">Read More</a></span></div>
-        
-        {.or}
-        
-        {.section body}<div class="body entry-content">{@}</div>{.end}
-        
-        {.end}
-        
-        
-        <!--POST FOOTER-->
-        
-        <footer class="article-meta">
+    <!--POST BODY-->
+
+      {.section body}<div class="body entry-content">{@}</div>{.end}
+
+    <!--POST FOOTER-->
+
+      <footer class="article-meta">
           <div>
 
             <span class="article-dateline">
@@ -68,47 +50,55 @@
               <span class="comments"><a href="{fullUrl}#commenting"><i class="icon-comment"></i>{.section publicCommentCount}{@} Comment{@|pluralize}{.or}Comment{.end}</a></span>
               {.end}
             {.end}
-            
+
             {.section sourceUrl}<span class="source"><span class="delimiter">/</span><a href="{sourceUrl}" target="_blank"><i class="icon-share"></i>Source</a></span>{.end}
-            
+
             {.section categories}<div class="categories"><i class="icon-bookmark"></i>{.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
             {.section tags}<div class="tags"><i class="icon-tag"></i>{.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
-        
+
             <div class="shareLoveButtons">
               {@|like-button}
               {@|social-button-inline}
             </div>
 
-            {.if excerpt}{.or}
-              {@|apply author-block.block}
-            {.end}
+            {@|apply author-block.block}
 
-            
-        
-            <div class="post-entry-injection">{postItemInjectCode}</div>
-                
+            <div class="post-entry-injection clear-fix">{postItemInjectCode}</div>
+
           </div>
         </footer>
-        
-    </div> <!-- / post --> 
-    
-    </div><!-- / content-wrapper -->
+
+    </div><!-- /post -->
+
+  </div><!-- /content-wrapper -->
   </article>
-  
+
+
 {.end}
 
 <!--PAGINATION-->
-  
+
 {.section pagination}
-<nav class="page pagination">
+<nav class="item pagination">
   <div class="content-wrapper">
     <ul>
-      {.if pagination.prevPage}<li class="prev"><a href="{prevPageUrl}" id="prevLink"><i class="icon-chevron-left"></i>Previous</a></li>
-      {.or}<li class="no-prev"><!-- <a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a> --></li>{.end}
-      {.if pagination.nextPage}<li class="next"><a href="{nextPageUrl}" id="nextLink">Next<i class="icon-chevron-right"></i></a></li>
+      {.section prevItem}<li class="prev"><a href="{fullUrl}" title="{title}" id="prevLink"><i class="icon-chevron-left"></i><span class="prev-title">{title|truncate 36}</span></a></li>
+      {.or}<li class="no-prev"><a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a></li>{.end}
+      {.section nextItem}<li class="next"><a href="{fullUrl}" title="{title}" id="nextLink"><span class="next-title">{title|truncate 36}</span><i class="icon-chevron-right"></i></a></li>
       {.or}<li class="no-next"><a href="{collection.fullUrl}"><i class="icon-list"></i>{collection.title}</a></li>{.end}
     </ul>
   </div>
 </nav>
 {.end}
 
+<!--COMMENTS-->
+
+{.section item}
+  {.comments?}
+  <div id="commenting">
+    <section id="comments-section" class="comments-wrapper">
+      {@|comments}
+    </section>
+  </div>
+  {.end}
+{.end}

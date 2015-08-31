@@ -82,8 +82,6 @@
             {.if excerpt}{.or}
               {@|apply author-block.block}
             {.end}
-
-            
         
             <div class="post-entry-injection">{postItemInjectCode}</div>
                 
