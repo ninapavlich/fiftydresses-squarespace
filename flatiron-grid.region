@@ -1,168 +1,70 @@
-<section class="index" id="container" style="margin-top: 99px; margin-bottom: 67px; opacity: 1;">
-    <div data-content-field="main-content" id="container-content">
-        
-        <script>
-Y.use('squarespace-ui-base', function(Y) {
-        Y.all(".project-item .meta h1").each(function (current) {
-        current.plug(Y.Squarespace.TextShrink);
-        });
-        });
-        </script> <!-- Main Grid -->
+<section class="grid" id="container">
+    <div class="grid-item image">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    </div>
+    <div class="grid-item welcome">
+        <h1>Welcome</h1>
+        <p>Some welcome text here...</p>
+    </div>
+    <div class="grid-item image">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    </div>
+    <div class="grid-item section">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+        <a href="/lab/">
+            <h2>Lab</h2>
+            <h3>Snappy caption about the lab</h3>    
+        </a>
 
-        <div class="sqs-gallery-design-autocolumns" data-collection-id="4fcf9f02e4b03ecf7869e92e" id="grid" style="height: 5470px;">
-            <div class="item sqs-gallery-design-autocolumns-slide sqs-active-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1039" style="top: 0px; left: 0px; width: 632px; height: 947px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a500b2e4b01fcfc74b250f" href="/schools-out/" id="yui_3_17_2_1_1441509197364_1283">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1406">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1405">
-                        <h2 id="yui_3_17_2_1_1441509197364_1438">Schools out</h2>
+        <div class="inner-grid-item featured">
+            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <a href="/lab/">
+                <h3>Featured project title</h3>    
+            </a>
+        </div>
 
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" data-image-dimensions="1067x1600" data-image-focal-point="0.5,0.5" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg?format=original"&gt;</noscript></a>
-            </div>
+    </div>
+    <div class="grid-item section">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+        <a href="/shop/">
+            <h2>Shop</h2>
+            <h3>Snappy caption about the shop</h3>    
+        </a>
 
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1041" style="top: 0px; left: 632px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a504e7e4b01fcfc74b2ad1" href="/rodeo/" id="yui_3_17_2_1_1441509197364_1289">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1369">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1368">
-                        <h2 id="yui_3_17_2_1_1441509197364_2260">Rodeo</h2>
-
-                        <h3 id="yui_3_17_2_1_1441509197364_1416">— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5060ae4b07c0410aa554f/1369774219745/anna8.jpg" data-image-dimensions="430x430" data-image-focal-point="0.44711538461538464,0.36538461538461536" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5060ae4b07c0410aa554f/1369774219745/anna8.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5060ae4b07c0410aa554f/1369774219745/anna8.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5060ae4b07c0410aa554f/1369774219745/anna8.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1043" style="top: 632px; left: 632px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a506eee4b068f76a152a0e" href="/nude-magazine/" id="yui_3_17_2_1_1441509197364_1295">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1560">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1559">
-                        <h2 id="yui_3_17_2_1_1441509197364_2299">Nude Magazine</h2>
-
-                        <h3 id="yui_3_17_2_1_1441509197364_2297">— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5073fe4b0f7e42073b8b5/1369775034483/RUTSIG_00_cover2_schoolsout.jpg" data-image-dimensions="997x997" data-image-focal-point="0.5661764705882353,0.32211538461538464" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5073fe4b0f7e42073b8b5/1369775034483/RUTSIG_00_cover2_schoolsout.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5073fe4b0f7e42073b8b5/1369775034483/RUTSIG_00_cover2_schoolsout.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5073fe4b0f7e42073b8b5/1369775034483/RUTSIG_00_cover2_schoolsout.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1045" style="top: 947px; left: 0px; width: 632px; height: 418px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a5079ce4b0643b1ca95b8b" href="/concert/" id="yui_3_17_2_1_1441509197364_1301">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_2295">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_2294">
-                        <h2>Concert</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a507ffe4b04214dc6f14f0/1369769983526/anna4.jpg" data-image-dimensions="600x397" data-image-focal-point="0.2403846153846154,0.43283582089552236" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a507ffe4b04214dc6f14f0/1369769983526/anna4.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a507ffe4b04214dc6f14f0/1369769983526/anna4.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a507ffe4b04214dc6f14f0/1369769983526/anna4.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1047" style="top: 1264px; left: 632px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a508d5e4b0643b1ca95db8" href="/south-africa/" id="yui_3_17_2_1_1441509197364_1307">
-                <div class="wrapper">
-                    <div class="project-title">
-                        <h2>South Africa</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50a87e4b04d5e74d553d7/1429662911604/giraffportratt_laptop.jpg" data-image-dimensions="2500x2500" data-image-focal-point="0.4855769230769231,0.5227272727272727" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50a87e4b04d5e74d553d7/1429662911604/giraffportratt_laptop.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50a87e4b04d5e74d553d7/1429662911604/giraffportratt_laptop.jpg?format=1000w"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50a87e4b04d5e74d553d7/1429662911604/giraffportratt_laptop.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1049" style="top: 1365px; left: 0px; width: 632px; height: 947px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a50b38e4b020a19ed7a0d1" href="/fashion/" id="yui_3_17_2_1_1441509197364_1313">
-                <div class="wrapper">
-                    <div class="project-title">
-                        <h2>Fashion</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51b3be4b0d5c254de36a7/1369774911124/SagaUrSjo_06_A4.jpg" data-image-dimensions="1067x1600" data-image-focal-point="0.49264705882352944,0.3125" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51b3be4b0d5c254de36a7/1369774911124/SagaUrSjo_06_A4.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51b3be4b0d5c254de36a7/1369774911124/SagaUrSjo_06_A4.jpg?format=1000w"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51b3be4b0d5c254de36a7/1369774911124/SagaUrSjo_06_A4.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1051" style="top: 1896px; left: 632px; width: 632px; height: 948px;">
-                <a class="sqs-dynamic-data-active" data-dynamic-load="" data-dynamic-receiver="#detail_51a50c32e4b068f76a1531a0" href="/portraits/" id="yui_3_17_2_1_1441509197364_1319">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1572">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1571">
-                        <h2 id="yui_3_17_2_1_1441509197364_1570">Portraits</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50d1be4b062a74b5a7229/1369771309625/Julia01+%281%29.jpg" data-image-dimensions="2000x3000" data-image-focal-point="0.49264705882352944,0.39903846153846156" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50d1be4b062a74b5a7229/1369771309625/Julia01+%281%29.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50d1be4b062a74b5a7229/1369771309625/Julia01+%281%29.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50d1be4b062a74b5a7229/1369771309625/Julia01+%281%29.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1053" style="top: 2312px; left: 0px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a510d2e4b0e2549bc236d2" href="/turned-magazine/" id="yui_3_17_2_1_1441509197364_1325">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1568">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1567">
-                        <h2>Turned Magazine</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51133e4b03e3c01267609/1369772439736/RUTSIG_AlexisTest_byRUTSIG_03_A4.jpg" data-image-dimensions="997x997" data-image-focal-point="0.5220588235294118,0.3317307692307692" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51133e4b03e3c01267609/1369772439736/RUTSIG_AlexisTest_byRUTSIG_03_A4.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51133e4b03e3c01267609/1369772439736/RUTSIG_AlexisTest_byRUTSIG_03_A4.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51133e4b03e3c01267609/1369772439736/RUTSIG_AlexisTest_byRUTSIG_03_A4.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1055" style="top: 2844px; left: 632px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a50d9ce4b0d5c254de1969" href="/by-the-sea/" id="yui_3_17_2_1_1441509197364_1331">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1412">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1411">
-                        <h2>By the Sea</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50e5be4b093105c285429/1369771654882/RUTSIG_ByTheSea_001.jpg" data-image-dimensions="997x997" data-image-focal-point="0.4567307692307692,0.3798076923076923" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50e5be4b093105c285429/1369771654882/RUTSIG_ByTheSea_001.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50e5be4b093105c285429/1369771654882/RUTSIG_ByTheSea_001.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a50e5be4b093105c285429/1369771654882/RUTSIG_ByTheSea_001.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1057" style="top: 2944px; left: 0px; width: 632px; height: 947px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a51237e4b0643b1ca96daf" href="/window/" id="yui_3_17_2_1_1441509197364_1337">
-                <div class="wrapper">
-                    <div class="project-title">
-                        <h2>Window</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5125ee4b00152afd40273/1369772638091/RUTSIG_20130111_120329_col_highres.jpg" data-image-dimensions="1067x1600" data-image-focal-point="0.5,0.5" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5125ee4b00152afd40273/1369772638091/RUTSIG_20130111_120329_col_highres.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5125ee4b00152afd40273/1369772638091/RUTSIG_20130111_120329_col_highres.jpg?format=1000w"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5125ee4b00152afd40273/1369772638091/RUTSIG_20130111_120329_col_highres.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1059" style="top: 3476px; left: 632px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a512b3e4b068f76a153dd9" href="/kalo/" id="yui_3_17_2_1_1441509197364_1343">
-                <div class="wrapper">
-                    <div class="project-title">
-                        <h2>KALO</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51721e4b00f44289606f9/1369773862802/RUTSIG_20120126_141916_p_print.jpg" data-image-dimensions="1600x1600" data-image-focal-point="0.5384615384615384,0.3173076923076923" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51721e4b00f44289606f9/1369773862802/RUTSIG_20120126_141916_p_print.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51721e4b00f44289606f9/1369773862802/RUTSIG_20120126_141916_p_print.jpg?format=1000w"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a51721e4b00f44289606f9/1369773862802/RUTSIG_20120126_141916_p_print.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1061" style="top: 3891px; left: 0px; width: 632px; height: 632px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a513dde4b0d80d8a7610ec" href="/hidden-people/" id="yui_3_17_2_1_1441509197364_1349">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1435">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1434">
-                        <h2>Hidden People</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5166ae4b018b736e523ea/1369773680276/RUTSIG_HIDDENPEOPLE_p_18x24.jpg" data-image-dimensions="1600x1600" data-image-focal-point="0.3894230769230769,0.3605769230769231" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5166ae4b018b736e523ea/1369773680276/RUTSIG_HIDDENPEOPLE_p_18x24.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5166ae4b018b736e523ea/1369773680276/RUTSIG_HIDDENPEOPLE_p_18x24.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a5166ae4b018b736e523ea/1369773680276/RUTSIG_HIDDENPEOPLE_p_18x24.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide slide-stretched" data-type="image" id="yui_3_17_2_1_1441509197364_1063" style="top: 4108px; left: 632px; width: 632px; height: 946px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a51509e4b093105c2866a3" href="/a-dialog-with-kahlo/" id="yui_3_17_2_1_1441509197364_1355">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1580">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1579">
-                        <h2>A Dialog With Kahlo</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a515e5e4b0d80d8a7615fb/1369773541835/rut21.jpg" data-image-dimensions="434x650" data-image-focal-point="0.41911764705882354,0.34134615384615385" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a515e5e4b0d80d8a7615fb/1369773541835/rut21.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a515e5e4b0d80d8a7615fb/1369773541835/rut21.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a515e5e4b0d80d8a7615fb/1369773541835/rut21.jpg?format=original"&gt;</noscript></a>
-            </div>
-
-            <div class="item sqs-gallery-design-autocolumns-slide" data-type="image" id="yui_3_17_2_1_1441509197364_1065" style="top: 4523px; left: 0px; width: 632px; height: 947px;">
-                <a data-dynamic-load="" data-dynamic-receiver="#detail_51a516bfe4b0b3ec2049de4d" href="/church/" id="yui_3_17_2_1_1441509197364_1361">
-                <div class="wrapper" id="yui_3_17_2_1_1441509197364_1565">
-                    <div class="project-title" id="yui_3_17_2_1_1441509197364_1564">
-                        <h2 id="yui_3_17_2_1_1441509197364_1563">Church</h2>
-
-                        <h3>— view —</h3>
-                    </div>
-                </div><img class="thumbnail loaded" data-image="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a517e9e4b040da1a8741d6/1369774061024/RUTSIG_03_schoolsout.jpg" data-image-dimensions="1067x1600" data-image-focal-point="0.5220588235294118,0.34134615384615385" data-image-resolution="1000w" data-load="false" data-src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a517e9e4b040da1a8741d6/1369774061024/RUTSIG_03_schoolsout.jpg" src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a517e9e4b040da1a8741d6/1369774061024/RUTSIG_03_schoolsout.jpg?format=1000w" style="top: auto; left: auto;"> <noscript>&lt;img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/51a517e9e4b040da1a8741d6/1369774061024/RUTSIG_03_schoolsout.jpg?format=original"&gt;</noscript></a>
-            </div>
+        <div class="inner-grid-item featured">
+            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <a href="/shop/">
+                <h3>Featured for sale title</h3>    
+            </a>
         </div>
     </div>
+    <div class="grid-item section">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+        <a href="/about/">
+            <h2>About</h2>
+            <h3>Snappy caption about Tess</h3>    
+        </a>
+
+        <div class="inner-grid-item featured">
+            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <a href="/about/news/">
+                <h3>Featured news article</h3>    
+            </a>
+        </div>
+
+    </div>
+
+    <div class="grid-item image">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    </div>
+
+    <div class="grid-item image">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    </div>
+
+    <div class="grid-item form">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+        <h2>Newsletter Sign Up</h2>    
+    </div>
+    
 </section>
