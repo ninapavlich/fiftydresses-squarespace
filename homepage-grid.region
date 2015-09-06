@@ -29,7 +29,7 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>{title} or {@.title} or {@title}</h2>
+                            <h2>{title} or {@.title} or {@title} or {collection.title}</h2>
                             {description}  
 
 
