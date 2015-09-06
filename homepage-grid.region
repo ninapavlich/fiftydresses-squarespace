@@ -1,6 +1,6 @@
 <!-- temporary, TODO: Move to stylesheet -->
 <style>
-//GLOBAL
+
 .center-outer {
     display: table;
     position: static;
@@ -23,7 +23,7 @@
 }
 
 
-//HOMEPAGE SPECIFI
+
 .grid-item, .inner-grid-item {
     width: 33.33%;
     height: 33.33%;
