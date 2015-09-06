@@ -7,7 +7,7 @@
         <div class="center-outer">
             <div class="center-middle">
                 <div class="center-inner">  
-                    <h1 id="page-title" class="page-title">{website.siteTitle}</h1>
+                    <h1>{website.siteTitle}</h1>
                     {.section collection}
                       <p>{description}</p>
                     {.end}
@@ -20,7 +20,7 @@
     </div>
     <div class="grid-item section double welcome-filler-right">
         <div class="inner-grid-item">
-            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            
             <a href="/lab/" class="fill">
 
                 <div class="center-outer">
@@ -36,7 +36,7 @@
         </div>
 
         <div class="inner-grid-item featured">
-            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <img src="http://static1.squarespace.com/static/55d72041e4b041b04b5f1d47/t/55ec694ae4b021694c01837e/1441556821638/Screen-Shot-2013-12-09-at-3.52.14-PM-300x300.png" alt="" class="fill" />
             <a href="/lab/" class="fill">
 
                 <div class="center-outer">
@@ -53,7 +53,7 @@
     </div>
     <div class="grid-item section double">
         <div class="inner-grid-item">
-            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            
             <a href="/shop/" class="fill">
 
                 <div class="center-outer">
@@ -69,7 +69,7 @@
         </div>
 
         <div class="inner-grid-item featured">
-            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <img src="https://static1.squarespace.com/static/55d72041e4b041b04b5f1d47/55e38c01e4b0f3589b274907/55eb5344e4b021f839947d3e/1441485636822/IMG_5166web.jpg?format=750w" alt="" class="fill" />
             <a href="/shop/" class="fill">
 
                 <div class="center-outer">
@@ -86,7 +86,7 @@
     </div>
     <div class="grid-item section double">
         <div class="inner-grid-item">
-            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            
             <a href="/about/" class="fill">
 
                 <div class="center-outer">
@@ -102,7 +102,7 @@
         </div>
 
         <div class="inner-grid-item featured">
-            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <img src="https://static1.squarespace.com/static/55d72041e4b041b04b5f1d47/55eb77d1e4b0365de562c545/55eb77e6e4b079d8e4afe2fe/1441495618254/?format=300w" alt="" class="fill" />
             <a href="/about/news/">
 
                 <div class="center-outer">
