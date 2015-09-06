@@ -44,10 +44,16 @@
                         <div class="center-inner">  
                             <h2>Featured project title</h2>
 
-                            <squarespace:query collection="project">
+                            <squarespace:query collection="lab/projects">
                                 {.repeated section items}
                                     Project {title}
                                 {.end}
+                            </squarespace:query>
+
+                            <squarespace:query collection="about">
+
+                              <pre>{@|json-pretty}</pre>
+
                             </squarespace:query>
 
                         </div>
@@ -85,7 +91,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>Featured for sale title</h2>   
-                            <squarespace:query collection="product">
+                            <squarespace:query collection="shop">
                                 {.repeated section items}
                                     Product {title}
                                 {.end}
@@ -125,7 +131,7 @@
                         <div class="center-inner">  
                             <h2>Featured news article</h2>    
 
-                            <squarespace:query collection="news-article">
+                            <squarespace:query collection="about/news">
                                 {.repeated section items}
                                     News Article {title}
                                 {.end}
