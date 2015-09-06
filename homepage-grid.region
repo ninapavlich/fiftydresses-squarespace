@@ -7,7 +7,7 @@
         <div class="center-outer">
             <div class="center-middle">
                 <div class="center-inner">  
-                    {.if title}<h1 id="page-title" class="page-title">{website.siteTitle}</h1>{.end}
+                    <h1 id="page-title" class="page-title">{website.siteTitle}</h1>
                     {.section collection}
                       <p>{description}</p>
                     {.end}
@@ -21,16 +21,32 @@
     <div class="grid-item section double welcome-filler-right">
         <div class="inner-grid-item">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-            <a href="/lab/">
-                <h2>Lab</h2>
-                <h3>Snappy caption about the lab</h3>    
+            <a href="/lab/" class="fill">
+
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h2>Lab</h2>
+                            <h3>Snappy caption about the lab</h3>   
+                        </div>
+                    </div>
+                </div>
+                 
             </a>
         </div>
 
         <div class="inner-grid-item featured">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-            <a href="/lab/">
-                <h3>Featured project title</h3>    
+            <a href="/lab/" class="fill">
+
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h3>Featured project title</h3>
+                        </div>
+                    </div>
+                </div>
+                
             </a>
         </div>
 
@@ -38,16 +54,32 @@
     <div class="grid-item section double">
         <div class="inner-grid-item">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-            <a href="/shop/">
-                <h2>Shop</h2>
-                <h3>Snappy caption about the shop</h3>    
+            <a href="/shop/" class="fill">
+
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h2>Shop</h2>
+                            <h3>Snappy caption about the shop</h3>    
+                        </div>
+                    </div>
+                </div>
+                
             </a>
         </div>
 
         <div class="inner-grid-item featured">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-            <a href="/shop/">
-                <h3>Featured for sale title</h3>    
+            <a href="/shop/" class="fill">
+
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h3>Featured for sale title</h3>       
+                        </div>
+                    </div>
+                </div>
+                
             </a>
         </div>
         
@@ -55,16 +87,32 @@
     <div class="grid-item section double">
         <div class="inner-grid-item">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-            <a href="/about/">
-                <h2>About</h2>
-                <h3>Snappy caption about Tess</h3>    
+            <a href="/about/" class="fill">
+
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h2>About</h2>
+                            <h3>Snappy caption about Tess</h3>    
+                        </div>
+                    </div>
+                </div>                
+                
             </a>
         </div>
 
         <div class="inner-grid-item featured">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
             <a href="/about/news/">
-                <h3>Featured news article</h3>    
+
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h3>Featured news article</h3>    
+                        </div>
+                    </div>
+                </div>
+                
             </a>
         </div>
 
@@ -80,7 +128,14 @@
 
     <div class="grid-item form">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-        <h2>Newsletter Sign Up</h2>    
+        
+        <div class="center-outer">
+            <div class="center-middle">
+                <div class="center-inner">  
+                    <h2>Newsletter Sign Up</h2>   
+                </div>
+            </div>
+        </div> 
     </div>
     
 </section>
