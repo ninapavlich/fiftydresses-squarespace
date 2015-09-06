@@ -29,7 +29,7 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>{title}</h2>
+                            <h2>{title} or {@.title} or {@title}</h2>
                             {description}  
 
 
@@ -47,7 +47,7 @@
         </squarespace:query>
 
 
-        <squarespace:query collection="lab/projects" limit="1">
+        <squarespace:query collection="lab/projects" limit="1" featured="true">
             {.repeated section items}
 
 
