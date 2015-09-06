@@ -17,4 +17,9 @@ function resizeGridItems(){
 
     $(".grid-item").css("width", grid_item_width);
     $(".grid-item").css("height", grid_item_width);
+
+    $(".inner-grid-item").css("width", grid_item_width);
+    $(".inner-grid-item").css("height", grid_item_width);
+
+    $(".grid-item.double").css("height", 2*grid_item_width);
 }
