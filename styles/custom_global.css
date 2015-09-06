@@ -42,12 +42,10 @@ input:not([type=submit]):not([type=file]) {
     margin: 0 0 10px 0;
 }
 input[type=submit] {
-    background:#eee;
-    color:#222;
+    color:#222 !important;
 }
 input[type=submit]:hover {
-    background:#222;
-    color:#444;
+    background:#999;
 }
 
 form#mc-embedded-subscribe-form{
