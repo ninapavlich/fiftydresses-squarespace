@@ -22,25 +22,16 @@
 
         <squarespace:query collection="lab" limit="1">
 
-        <div class="inner-grid-item reverse">
-            
-            <a href="/lab" class="fill">
-
+        <div class="inner-grid-item reverse">            
+            <a href="{collection.fullUrl}" class="fill">
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>{title} or {@.title} or {@title} or {collection.title}</h2>
-                            {description}  
-
-
-
-                              <pre>{@|json-pretty}</pre>
-
-                            
+                            <h2>{collection.title}</h2>
+                            {collection.description}
                         </div>
                     </div>
-                </div>
-                 
+                </div>                 
             </a>
         </div>
 
@@ -48,85 +39,83 @@
 
 
         <squarespace:query collection="lab/projects" limit="1" featured="true">
-            {.repeated section items}
+        {.repeated section items}
 
 
-            <div class="inner-grid-item featured">
-                <img src="{assetUrl}" alt="" class="fill" />
-                <a href="{fullUrl}" class="screen">
-
-                    <div class="center-outer">
-                        <div class="center-middle">
-                            <div class="center-inner">  
-                                <small>Featured Project</small>     
-                                <h2>{title}</h2>
-                            </div>
-                        </div>
-                    </div>                    
-                </a>
-            </div>
-            {.end}
-        </squarespace:query>   
-
-    </div>
-    <div class="grid-item section double">
-        <div class="inner-grid-item reverse">
-            
-            <a href="/shop/" class="fill">
+        <div class="inner-grid-item featured">
+            <img src="{assetUrl}" alt="" class="fill" />
+            <a href="{fullUrl}" class="screen">
 
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>Shop</h2>
-                            <p>Snappy caption about the shop</p>    
+                            <small>Featured Project</small>     
+                            <h2>{title}</h2>
                         </div>
                     </div>
-                </div>
-                
+                </div>                    
             </a>
         </div>
+        {.end}
+        </squarespace:query>   
 
+    </div>
+    <div class="grid-item section double">
+
+        <squarespace:query collection="shop" limit="1">
+        <div class="inner-grid-item reverse">            
+            <a href="{collection.fullUrl}" class="fill">
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h2>{collection.title}</h2>
+                            {collection.description}
+                        </div>
+                    </div>
+                </div>                 
+            </a>
+        </div>
+        </squarespace:query>   
 
 
         <squarespace:query collection="shop" limit="1" featured="true">
-            {.repeated section items}
+        {.repeated section items}
 
 
-            <div class="inner-grid-item featured">
-                <img src="{assetUrl}" alt="" class="fill" />
-                <a href="{fullUrl}" class="screen">
+        <div class="inner-grid-item featured">
+            <img src="{assetUrl}" alt="" class="fill" />
+            <a href="{fullUrl}" class="screen">
 
-                    <div class="center-outer">
-                        <div class="center-middle">
-                            <div class="center-inner"> 
-                                <small>For Sale</small> 
-                                <h2>{title}</h2>
-                            </div>
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner"> 
+                            <small>For Sale</small> 
+                            <h2>{title}</h2>
                         </div>
-                    </div>                    
-                </a>
-            </div>
-            {.end}
+                    </div>
+                </div>                    
+            </a>
+        </div>
+        {.end}
         </squarespace:query>
         
         
     </div>
     <div class="grid-item section double">
-        <div class="inner-grid-item reverse">
-            
-            <a href="/about/" class="fill">
-
+        <squarespace:query collection="about" limit="1">
+        <div class="inner-grid-item reverse">            
+            <a href="{collection.fullUrl}" class="fill">
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>About</h2>
-                            <p>Snappy caption about Tess</p>    
+                            <h2>{collection.title}</h2>
+                            {collection.description}
                         </div>
                     </div>
-                </div>                
-                
+                </div>                 
             </a>
         </div>
+        </squarespace:query>  
 
 
         <squarespace:query collection="about/news" limit="1">
