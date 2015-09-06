@@ -89,7 +89,7 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner"> 
-                            <small>For Sale</small> 
+                            <small>Featured in the Shop</small> 
                             <h2>{title}</h2>
                         </div>
                     </div>
