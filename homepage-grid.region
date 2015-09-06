@@ -133,7 +133,7 @@
                     <form id="mc-embedded-subscribe-form" class="validate" action="//50dresses.us2.list-manage.com/subscribe/post?u=bf457f961eee1201c74374475&amp;id=ca61504bc1" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
                         <div class="row">
                             <input id="mce-email" class="email" name="email" required="" type="email" value="" placeholder="Email Address">
-                            <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Subscribe">
+                            <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Sign Up">
                         </div>
                     </form>
                 </div>
