@@ -43,6 +43,13 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>Featured project title</h2>
+
+                            <squarespace:query collection="project">
+                                {.repeated section items}
+                                    Project {title}
+                                {.end}
+                            </squarespace:query>
+
                         </div>
                     </div>
                 </div>
@@ -68,6 +75,8 @@
             </a>
         </div>
 
+
+
         <div class="inner-grid-item featured">
             <img src="https://static1.squarespace.com/static/55d72041e4b041b04b5f1d47/55e38c01e4b0f3589b274907/55eb5344e4b021f839947d3e/1441485636822/IMG_5166web.jpg?format=750w" alt="" class="fill" />
             <a href="/shop/" class="screen">
@@ -75,7 +84,13 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>Featured for sale title</h2>       
+                            <h2>Featured for sale title</h2>   
+                            <squarespace:query collection="product">
+                                {.repeated section items}
+                                    Product {title}
+                                {.end}
+                            </squarespace:query>
+
                         </div>
                     </div>
                 </div>
@@ -109,6 +124,12 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>Featured news article</h2>    
+
+                            <squarespace:query collection="news-article">
+                                {.repeated section items}
+                                    News Article {title}
+                                {.end}
+                            </squarespace:query>
                         </div>
                     </div>
                 </div>
