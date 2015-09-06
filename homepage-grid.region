@@ -17,7 +17,7 @@
 }
 </style>
 
-<section class="grid" id="container">
+<section class="grid needs-ready" id="container">
     <div class="grid-item image">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
@@ -87,10 +87,3 @@
     </div>
     
 </section>
-
-<script>
-
-$(document).ready(function(){
-    console.log("doc ready...")
-})
-</script>
