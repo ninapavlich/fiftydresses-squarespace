@@ -9,8 +9,6 @@
                     <h1>{website.siteTitle}</h1>
                     {.section collection}
                       {description}
-
-                      <pre>{@|json-pretty}</pre>
                     {.end}
                 </div>
             </div>
@@ -18,8 +16,7 @@
     </div>
     <div class="grid-item image welcome-filler double-wide">
         {.section collection}
-        <pre>{@|json-pretty}</pre>
-        <img src="{assetUrl}" alt="" class="fill" />
+        <img src="{collection.assetUrl}" alt="" class="fill" />
         {.end}
     </div>
 
