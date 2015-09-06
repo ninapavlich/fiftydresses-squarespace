@@ -9,14 +9,15 @@
                     <h1>{website.siteTitle}</h1>
                     {.section collection}
                       {description}
-                      
-                    {.end}                    
+                    {.end}
                 </div>
             </div>
         </div>
     </div>
     <div class="grid-item image welcome-filler double-wide">
+        {.section collection}
         <img src="{assetUrl}" alt="" class="fill" />
+        {.end}
     </div>
 
     <div class="grid-item section double welcome-filler-right">
