@@ -1,6 +1,8 @@
 <section class="container grid needs-ready">
     
-    
+    <div class="grid-item image welcome-filler">
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    </div>
     <div class="grid-item welcome">
 
         <div class="center-outer">
@@ -14,7 +16,7 @@
             </div>
         </div>
     </div>
-    <div class="grid-item image welcome-filler double-wide">
+    <div class="grid-item image welcome-filler ">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
 
@@ -24,7 +26,7 @@
 
         <div class="inner-grid-item reverse">            
             <a href="{collection.fullUrl}" class="fill">
-                <div class="center-outer">
+                <div class="center-outer border">
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>{collection.title}</h2>
@@ -46,7 +48,7 @@
             <img src="{assetUrl}" alt="" class="fill" />
             <a href="{fullUrl}" class="screen">
 
-                <div class="center-outer">
+                <div class="center-outer border">
                     <div class="center-middle">
                         <div class="center-inner">  
                             <small>Featured Project</small>     
@@ -65,7 +67,7 @@
         <squarespace:query collection="shop" limit="1">
         <div class="inner-grid-item reverse">            
             <a href="{collection.fullUrl}" class="fill">
-                <div class="center-outer">
+                <div class="center-outer border">
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>{collection.title}</h2>
@@ -86,7 +88,7 @@
             <img src="{assetUrl}" alt="" class="fill" />
             <a href="{fullUrl}" class="screen">
 
-                <div class="center-outer">
+                <div class="center-outer border">
                     <div class="center-middle">
                         <div class="center-inner"> 
                             <small>Featured in the Shop</small> 
@@ -105,7 +107,7 @@
         <squarespace:query collection="about" limit="1">
         <div class="inner-grid-item reverse">            
             <a href="{collection.fullUrl}" class="fill">
-                <div class="center-outer">
+                <div class="center-outer border">
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>{collection.title}</h2>
@@ -126,7 +128,7 @@
                 <img src="{assetUrl}" alt="" class="fill" />
                 <a href="{fullUrl}" class="screen">
 
-                    <div class="center-outer">
+                    <div class="center-outer border">
                         <div class="center-middle">
                             <div class="center-inner">  
                                 <small>Latest News</small>
@@ -149,7 +151,7 @@
     <div class="grid-item form reverse">
         
     
-        <div class="center-outer">
+        <div class="center-outer border">
             <div class="center-middle">
                 <div class="center-inner">  
                     <h2>Newsletter Sign Up</h2>   

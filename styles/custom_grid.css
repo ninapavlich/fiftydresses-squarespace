@@ -29,8 +29,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.grid-item .center-outer,
-.inner-grid-item .center-outer{
+.grid-item .center-outer.border,
+.inner-grid-item .center-outer.border{
     border: 1px solid #666;
     width: 90%;
     height: 90%;
@@ -91,8 +91,8 @@
 .inner-grid-item.reverse{
     background-color:#222;
 }
-.grid-item.reverse .center-outer,
-.inner-grid-item.reverse .center-outer{
+.grid-item.reverse .center-outer.border,
+.inner-grid-item.reverse .center-outer.border{
     border: 1px solid #444;
 }
 .grid-item.reverse *,
