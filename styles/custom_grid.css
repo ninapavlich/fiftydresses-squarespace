@@ -70,6 +70,17 @@
     opacity: 1;
 
 }
+.grid-item.reverse,
+.inner-grid-item.reverse{
+    background-color:#222;
+}
+.grid-item.reverse *,
+.grid-item.reverse .screen *,
+.inner-grid-item.reverse *,
+.inner-grid-item.reverse .screen *{
+    color:#fff;
+}
+
 
 @media (max-width: 700px) {
     .grid-item, .inner-grid-item {

@@ -19,7 +19,7 @@
     </div>
 
     <div class="grid-item section double welcome-filler-right">
-        <div class="inner-grid-item">
+        <div class="inner-grid-item reverse">
             
             <a href="/lab/" class="fill">
 
@@ -52,7 +52,7 @@
 
     </div>
     <div class="grid-item section double">
-        <div class="inner-grid-item">
+        <div class="inner-grid-item reverse">
             
             <a href="/shop/" class="fill">
 
@@ -85,7 +85,7 @@
         
     </div>
     <div class="grid-item section double">
-        <div class="inner-grid-item">
+        <div class="inner-grid-item reverse">
             
             <a href="/about/" class="fill">
 
