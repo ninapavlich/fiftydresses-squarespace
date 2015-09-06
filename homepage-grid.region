@@ -20,28 +20,28 @@
 
     <div class="grid-item section double welcome-filler-right">
 
-        <squarespace:query collection="lab" limit="1">
-            {.repeated section items}
 
-            <div class="inner-grid-item reverse">
+        <div class="inner-grid-item reverse">
             
-                <a href="{fullUrl}" class="fill">
+            <a href="/lab/" class="fill">
 
-                    <div class="center-outer">
-                        <div class="center-middle">
-                            <div class="center-inner">  
-                                <h2>{title}</h2>
-                                <p>{description}</p>   
-                            </div>
+                <div class="center-outer">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <h2>Lab</h2>
+                            <p>Snappy caption about the lab</p>   
+
+                            <squarespace:query collection="lab">
+
+                              <pre>{@|json-pretty}</pre>
+
+                            </squarespace:query>
                         </div>
                     </div>
-                     
-                </a>
-            </div>
-            {.end}
-        </squarespace:query>
-
-        
+                </div>
+                 
+            </a>
+        </div>
 
 
         <squarespace:query collection="lab/projects" limit="1">
