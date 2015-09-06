@@ -47,8 +47,13 @@
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
     <div class="grid-item welcome">
-        <h1>Welcome</h1>
-        <p>Some welcome text here...</p>
+        {.section collection}
+          {.if title}<h1 id="page-title" class="page-title">{title}</h1>{.end}
+        {.end}
+
+        <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+            {squarespace.main-content}
+        </div>
     </div>
     <div class="grid-item image welcome-filler-right">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
