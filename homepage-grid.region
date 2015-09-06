@@ -83,26 +83,28 @@
 
 
 
-        <div class="inner-grid-item featured">
-            <img src="https://static1.squarespace.com/static/55d72041e4b041b04b5f1d47/55e38c01e4b0f3589b274907/55eb5344e4b021f839947d3e/1441485636822/IMG_5166web.jpg?format=750w" alt="" class="fill" />
-            <a href="/shop/" class="screen">
+        <squarespace:query collection="shop" limit="1">
+            {.repeated section items}
 
-                <div class="center-outer">
-                    <div class="center-middle">
-                        <div class="center-inner">  
-                            <h2>Featured for sale title</h2>   
-                            <squarespace:query collection="shop">
-                                {.repeated section items}
-                                    Product {title}
-                                {.end}
-                            </squarespace:query>
 
+            <div class="inner-grid-item featured">
+                <img src="https://static1.squarespace.com/static/55d72041e4b041b04b5f1d47/55e38c01e4b0f3589b274907/55eb5344e4b021f839947d3e/1441485636822/IMG_5166web.jpg?format=750w" alt="" class="fill" />
+                <a href="/shop/" class="screen">
+
+                    <div class="center-outer">
+                        <div class="center-middle">
+                            <div class="center-inner">  
+                                <h2>{title}</h2>
+
+                                <pre>{@|json-pretty}</pre>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                
-            </a>
-        </div>
+                    </div>                    
+                </a>
+            </div>
+            {.end}
+        </squarespace:query>
+        
         
     </div>
     <div class="grid-item section double">
