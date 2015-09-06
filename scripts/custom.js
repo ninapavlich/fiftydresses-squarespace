@@ -20,10 +20,20 @@ function resizeGridItems(){
 
     if(grid_width > medium_breakpoint){
         var grid_item_width = grid_width / 3;
+        
+        $(".grid-item.double").css("height", 2*grid_item_width);
+        $(".grid-item.double").css("width", grid_item_width);
+
     }else if(grid_width <= medium_breakpoint && grid_width > small_breakpoint){
         var grid_item_width = grid_width / 2;
+
+        $(".grid-item.double").css("height", grid_item_width);
+        $(".grid-item.double").css("width", 2*grid_item_width);
     }else{
         var grid_item_width = grid_width;
+
+        $(".grid-item.double").css("height", grid_item_width);
+        $(".grid-item.double").css("width", grid_item_width);
     }
 
     $(".grid-item").css("width", grid_item_width);
@@ -32,6 +42,6 @@ function resizeGridItems(){
     $(".inner-grid-item").css("width", grid_item_width);
     $(".inner-grid-item").css("height", grid_item_width);
 
-    $(".grid-item.double").css("height", 2*grid_item_width);
+    
     
 }
