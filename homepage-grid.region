@@ -8,7 +8,7 @@
                 <div class="center-inner">  
                     <h1>{website.siteTitle}</h1>
                     {.section collection}
-                      <p>{description}</p>
+                      {description}
                     {.end}
                 </div>
             </div>
@@ -20,28 +20,31 @@
 
     <div class="grid-item section double welcome-filler-right">
 
+        <squarespace:query collection="lab" limit="1">
 
         <div class="inner-grid-item reverse">
             
-            <a href="/lab/" class="fill">
+            <a href="/lab" class="fill">
 
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h2>Lab</h2>
-                            <p>Snappy caption about the lab</p>   
+                            <h2>{title}</h2>
+                            {description}  
 
-                            <squarespace:query collection="lab">
+
 
                               <pre>{@|json-pretty}</pre>
 
-                            </squarespace:query>
+                            
                         </div>
                     </div>
                 </div>
                  
             </a>
         </div>
+
+        </squarespace:query>
 
 
         <squarespace:query collection="lab/projects" limit="1">
@@ -55,6 +58,7 @@
                     <div class="center-outer">
                         <div class="center-middle">
                             <div class="center-inner">  
+                                <small>Featured Project</small>     
                                 <h2>{title}</h2>
                             </div>
                         </div>
@@ -84,7 +88,7 @@
 
 
 
-        <squarespace:query collection="shop" limit="1">
+        <squarespace:query collection="shop" limit="1" featured="true">
             {.repeated section items}
 
 
@@ -94,7 +98,8 @@
 
                     <div class="center-outer">
                         <div class="center-middle">
-                            <div class="center-inner">  
+                            <div class="center-inner"> 
+                                <small>For Sale</small> 
                                 <h2>{title}</h2>
                             </div>
                         </div>
@@ -135,6 +140,7 @@
                     <div class="center-outer">
                         <div class="center-middle">
                             <div class="center-inner">  
+                                <small>Latest News</small>
                                 <h2>{title}</h2>
                             </div>
                         </div>
