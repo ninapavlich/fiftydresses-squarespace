@@ -1,8 +1,6 @@
 <section class="container grid needs-ready">
     
-    <div class="grid-item image welcome-filler">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-    </div>
+    
     <div class="grid-item welcome">
 
         <div class="center-outer">
@@ -11,13 +9,14 @@
                     <h1>{website.siteTitle}</h1>
                     {.section collection}
                       {description}
-                    {.end}
+                      
+                    {.end}                    
                 </div>
             </div>
         </div>
     </div>
-    <div class="grid-item image welcome-filler ">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    <div class="grid-item image welcome-filler double-wide">
+        <img src="{assetUrl}" alt="" class="fill" />
     </div>
 
     <div class="grid-item section double welcome-filler-right">

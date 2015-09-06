@@ -71,7 +71,7 @@
 }
 
 .grid-item a.screen:hover{
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
 }
 
 .grid-item a.screen *{
