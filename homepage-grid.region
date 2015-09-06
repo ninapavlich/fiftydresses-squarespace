@@ -16,7 +16,6 @@
     </div>
     <div class="grid-item image welcome-filler double-wide">
         <img src="{collection.mainImage.assetUrl}" alt="" class="fill" />
-        <pre>{collection|json-pretty}</pre>
     </div>
 
     <div class="grid-item section double welcome-filler-right">
