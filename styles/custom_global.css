@@ -41,16 +41,16 @@ input:not([type=submit]):not([type=file]) {
     background: rgba(255,255,255,0.1);
     margin: 0 0 10px 0;
 }
-input:[type=submit] {
+input[type=submit] {
     background:#eee;
     color:#222;
 }
-input:[type=submit]:hover {
+input[type=submit]:hover {
     background:#222;
     color:#444;
 }
 
-form.row#mce{
+form#mc-embedded-subscribe-form{
     max-width: 350px;
     margin:auto;
 }
