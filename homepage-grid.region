@@ -29,11 +29,13 @@
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
     <div class="grid-item section double">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-        <a href="/lab/">
-            <h2>Lab</h2>
-            <h3>Snappy caption about the lab</h3>    
-        </a>
+        <div class="inner-grid-item">
+            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <a href="/lab/">
+                <h2>Lab</h2>
+                <h3>Snappy caption about the lab</h3>    
+            </a>
+        </div>
 
         <div class="inner-grid-item featured">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
@@ -44,10 +46,12 @@
 
     </div>
     <div class="grid-item section double">
-        <a href="/shop/">
-            <h2>Shop</h2>
-            <h3>Snappy caption about the shop</h3>    
-        </a>
+        <div class="inner-grid-item">
+            <a href="/shop/">
+                <h2>Shop</h2>
+                <h3>Snappy caption about the shop</h3>    
+            </a>
+        </div>
 
         <div class="inner-grid-item featured">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
@@ -58,11 +62,13 @@
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
     <div class="grid-item section double">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
-        <a href="/about/">
-            <h2>About</h2>
-            <h3>Snappy caption about Tess</h3>    
-        </a>
+        <div class="inner-grid-item">
+            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+            <a href="/about/">
+                <h2>About</h2>
+                <h3>Snappy caption about Tess</h3>    
+            </a>
+        </div>
 
         <div class="inner-grid-item featured">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
