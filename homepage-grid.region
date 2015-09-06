@@ -27,7 +27,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>Lab</h2>
-                            <h3>Snappy caption about the lab</h3>   
+                            <p>Snappy caption about the lab</p>   
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>Shop</h2>
-                            <h3>Snappy caption about the shop</h3>    
+                            <p>Snappy caption about the shop</p>    
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>About</h2>
-                            <h3>Snappy caption about Tess</h3>    
+                            <p>Snappy caption about Tess</p>    
                         </div>
                     </div>
                 </div>                
