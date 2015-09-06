@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="grid-item image welcome-filler-left double-wide">
+    <div class="grid-item image welcome-filler double-wide">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
 
@@ -42,7 +42,7 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h3>Featured project title</h3>
+                            <h2>Featured project title</h2>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h3>Featured for sale title</h3>       
+                            <h2>Featured for sale title</h2>       
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                 <div class="center-outer">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <h3>Featured news article</h3>    
+                            <h2>Featured news article</h2>    
                         </div>
                     </div>
                 </div>
@@ -118,21 +118,27 @@
 
     </div>
 
-    <div class="grid-item image bottom-filler-left double-wide">
+    <div class="grid-item image bottom-filler double-wide">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
 
-    <div class="grid-item form">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+    <div class="grid-item form reverse">
         
-        <span class="screen">
-            <div class="center-outer">
-                <div class="center-middle">
-                    <div class="center-inner">  
-                        <h2>Newsletter Sign Up</h2>   
-                    </div>
+    
+        <div class="center-outer">
+            <div class="center-middle">
+                <div class="center-inner">  
+                    <h2>Newsletter Sign Up</h2>   
+
+                    <input id="mce-EMAIL" class="email" name="EMAIL" required="" type="email" value="" placeholder="email address">
+                    
+
+                    <form id="mc-embedded-subscribe-form" class="validate" action="//50dresses.us2.list-manage.com/subscribe/post?u=bf457f961eee1201c74374475&amp;id=ca61504bc1" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+                        <div style="position: absolute; left: -5000px;"><input tabindex="-1" name="b_bf457f961eee1201c74374475_ca61504bc1" type="text" value=""></div>
+                        <div class="clear"><input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Subscribe"></div>
+                    </form>
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
     
