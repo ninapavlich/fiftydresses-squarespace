@@ -37,7 +37,7 @@ function resizeGridItems(){
         $(".grid-item.double").css("height", grid_item_width);
         $(".grid-item.double").css("width", 2*grid_item_width);
     }else{
-        $(".grid-item.double").css("height", grid_item_width);
+        $(".grid-item.double").css("height", 2*grid_item_width);
         $(".grid-item.double").css("width", grid_item_width);
     }
 
