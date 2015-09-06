@@ -15,9 +15,8 @@
         </div>
     </div>
     <div class="grid-item image welcome-filler double-wide">
-        {.section collection}
         <img src="{collection.assetUrl}" alt="" class="fill" />
-        {.end}
+        <pre>{@|json-pretty}</pre>
     </div>
 
     <div class="grid-item section double welcome-filler-right">
