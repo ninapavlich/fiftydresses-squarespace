@@ -130,12 +130,10 @@
                 <div class="center-inner">  
                     <h2>Newsletter Sign Up</h2>   
 
-                    <input id="mce-EMAIL" class="email" name="EMAIL" required="" type="email" value="" placeholder="email address">
-                    
-
                     <form id="mc-embedded-subscribe-form" class="validate" action="//50dresses.us2.list-manage.com/subscribe/post?u=bf457f961eee1201c74374475&amp;id=ca61504bc1" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-                        <div style="position: absolute; left: -5000px;"><input tabindex="-1" name="b_bf457f961eee1201c74374475_ca61504bc1" type="text" value=""></div>
-                        <div class="clear"><input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Subscribe"></div>
+                        <input id="mce-email" class="email" name="email" required="" type="email" value="" placeholder="Email Address">
+                        <input id="mce=name" tabindex="-1" name="b_bf457f961eee1201c74374475_ca61504bc1" type="text" value="">
+                        <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Subscribe">
                     </form>
                 </div>
             </div>
