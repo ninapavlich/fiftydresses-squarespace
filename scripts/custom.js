@@ -18,29 +18,28 @@ $( document ).ready(function() {
 function resizeGridItems(){
     var grid_width = $('.grid').width();
 
-    if(grid_width > medium_breakpoint){
-        var grid_item_width = grid_width / 3;
-        
-        $(".grid-item.double").css("height", 2*grid_item_width);
-        $(".grid-item.double").css("width", grid_item_width);
 
-    }else if(grid_width <= medium_breakpoint && grid_width > small_breakpoint){
-        var grid_item_width = grid_width / 2;
-
-        $(".grid-item.double").css("height", grid_item_width);
-        $(".grid-item.double").css("width", 2*grid_item_width);
-    }else{
-        var grid_item_width = grid_width;
-
-        $(".grid-item.double").css("height", grid_item_width);
-        $(".grid-item.double").css("width", grid_item_width);
-    }
-
+    var layout_size = (grid_width > medium_breakpoint) ? "large" : (grid_width <= medium_breakpoint && grid_width > small_breakpoint)? "medium" : "small";
+    var grid_item_width = (grid_width > medium_breakpoint) ? grid_width / 3 : (grid_width <= medium_breakpoint && grid_width > small_breakpoint)? grid_width / 2 : grid_width;
+    
     $(".grid-item").css("width", grid_item_width);
     $(".grid-item").css("height", grid_item_width);
 
     $(".inner-grid-item").css("width", grid_item_width);
     $(".inner-grid-item").css("height", grid_item_width);
+
+
+
+    if(layout_size=="large"){
+        $(".grid-item.double").css("height", 2*grid_item_width);
+        $(".grid-item.double").css("width", grid_item_width);
+    }else if(layout_size=="medium"){
+        $(".grid-item.double").css("height", grid_item_width);
+        $(".grid-item.double").css("width", 2*grid_item_width);
+    }else{
+        $(".grid-item.double").css("height", grid_item_width);
+        $(".grid-item.double").css("width", grid_item_width);
+    }
 
     
     
