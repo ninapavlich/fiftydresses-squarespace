@@ -1,6 +1,6 @@
 <!-- temporary, TODO: Move to stylesheet -->
 <style>
-.grid-item {
+.grid-item, .inner-grid-item {
     width: 33.33%;
     height: 33.33%;
     box-sizing: border-box;
@@ -15,10 +15,35 @@
     width:100%;
     z-index: -1;
 }
+
+@media (max-width: 700px) {
+    .grid-item, .inner-grid-item {
+        width: 50%;
+        height: 50%;
+    }
+    .welcome-filler-left{
+        display:none;
+    }
+    .bottom-filler-left{
+        display:none;
+    }
+}
+@media (max-width: 500px) {
+    .grid-item, .inner-grid-item {
+        width: 100%;
+        height: 100%;
+    }
+    .welcome-filler-right{
+        display:none;
+    }
+    .bottom-filler-right{
+        display:none;
+    }
+}
 </style>
 
 <section class="grid needs-ready" id="container">
-    <div class="grid-item image">
+    <div class="grid-item image welcome-filler-left">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
     <div class="grid-item welcome">
@@ -28,7 +53,7 @@
     <div class="grid-item image">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
-    <div class="grid-item section double">
+    <div class="grid-item section double welcome-filler-right">
         <div class="inner-grid-item">
             <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
             <a href="/lab/">
@@ -47,6 +72,7 @@
     </div>
     <div class="grid-item section double">
         <div class="inner-grid-item">
+            <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
             <a href="/shop/">
                 <h2>Shop</h2>
                 <h3>Snappy caption about the shop</h3>    
@@ -59,7 +85,7 @@
                 <h3>Featured for sale title</h3>    
             </a>
         </div>
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+        
     </div>
     <div class="grid-item section double">
         <div class="inner-grid-item">
@@ -79,11 +105,11 @@
 
     </div>
 
-    <div class="grid-item image">
+    <div class="grid-item image bottom-filler-left">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
 
-    <div class="grid-item image">
+    <div class="grid-item image bottom-filler-right">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
 
