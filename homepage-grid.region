@@ -7,17 +7,8 @@
         <div class="center-outer">
             <div class="center-middle">
                 <div class="center-inner">  
-                    Site title? {website.siteTitle}
-                    title? {title}
-                    sq title? {squarespace.title}
-                    {.if title}<h1 id="page-title" class="page-title">{title}</h1>{.end}
-                    {.if description}<div id="page-description" class="page-description">{description}</div>{.end}
-                    <br />
+                    {.if title}<h1 id="page-title" class="page-title">{website.siteTitle}</h1>{.end}
                     {.section collection}
-                    collection? {collection}
-                    title? {title}
-                    description? {description}
-                      <h1>{title}</h1>
                       <p>{description}</p>
                     {.end}
                 </div>

@@ -1,0 +1,40 @@
+.grid-item, .inner-grid-item {
+    width: 33.33%;
+    height: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    position:relative;
+}
+.grid-item img.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: -1;
+}
+
+@media (max-width: 700px) {
+    .grid-item, .inner-grid-item {
+        width: 50%;
+        height: 50%;
+    }
+    .welcome-filler-left{
+        display:none;
+    }
+    .bottom-filler-left{
+        display:none;
+    }
+}
+@media (max-width: 500px) {
+    .grid-item, .inner-grid-item {
+        width: 100%;
+        height: 100%;
+    }
+    .welcome-filler-right{
+        display:none;
+    }
+    .bottom-filler-right{
+        display:none;
+    }
+}
