@@ -1,3 +1,22 @@
+<!-- temporary, TODO: Move to stylesheet -->
+<style>
+.grid-item {
+    width: 33.33%;
+    height: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    position:relative;
+}
+.grid-item img.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+
+}
+</style>
+
 <section class="grid" id="container">
     <div class="grid-item image">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
@@ -25,7 +44,6 @@
 
     </div>
     <div class="grid-item section">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
         <a href="/shop/">
             <h2>Shop</h2>
             <h3>Snappy caption about the shop</h3>    
@@ -37,6 +55,7 @@
                 <h3>Featured for sale title</h3>    
             </a>
         </div>
+        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
     </div>
     <div class="grid-item section">
         <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
@@ -68,3 +87,10 @@
     </div>
     
 </section>
+
+<script>
+
+$(document).ready(function(){
+    console.log("doc ready...")
+})
+</script>
