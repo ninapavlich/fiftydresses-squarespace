@@ -20,6 +20,10 @@
 .collection-layout-subsection-landing #main-navigation li{
   float: right;
 }
+.collection-layout-section-landing #main-navigation li:first-child,
+.collection-layout-subsection-landing #main-navigation li:first-child{
+  margin-right:0.5em;
+}
 
 .collection-layout-section-landing #main-navigation li span.delimiter,
 .collection-layout-subsection-landing #main-navigation li span.delimiter{

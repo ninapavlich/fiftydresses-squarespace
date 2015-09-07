@@ -1,14 +1,10 @@
 <div id="banner-area-wrapper">
   <div id="banner-area">
 
-  <!-- // page thumbnail image as banner image -->
-  {.section collection}
-  {.section mainImage}
-    <div id="page-thumb" class="content-fill"><img {@|image-meta} /></div>
-  {.end}
-  {.end}
+  
+    <img src="{collection.mainImage.assetUrl}" alt="" class="fill" />
 
-  <div class="banner-overlay"></div>
+    <div class="banner-overlay"></div>
 
   <!-- // page title markup in banner area -->
   {.section collection}
