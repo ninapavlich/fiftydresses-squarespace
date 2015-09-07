@@ -1,0 +1,19 @@
+<section class="inner-container">
+    
+    <div class="main group">
+    {squarespace.main-content}
+    </div>
+
+    <section class="recent-projects group">
+
+      <div class="thirds-container">
+          <squarespace:query collection="lab/projects">
+          {.repeated section items}
+          {@|apply preview-item.block}
+          {.end}
+          </squarespace:query>
+      </div>
+
+    </section>
+
+</section>
