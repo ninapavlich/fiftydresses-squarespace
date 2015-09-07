@@ -1,7 +1,7 @@
 <section class="inner-container">
     
     <div class="main group">
-    {squarespace.main-content}
+    {collection.description}
     </div>
 
     <section class="recent-projects group">
