@@ -1,13 +1,13 @@
-.collection-layout-section-landing #main-navigation,
-.collection-layout-subsection-landing #main-navigation{
+#main-navigation,
+#main-navigation{
   position: absolute;
   top:0.5em;
   left:0;
   width:100%;
 }
 
-.collection-layout-section-landing #main-navigation ul,
-.collection-layout-subsection-landing #main-navigation ul{
+#main-navigation ul,
+#main-navigation ul{
   overflow: auto;
   zoom:1;
 
@@ -16,27 +16,35 @@
   margin:auto;
 }
 
-.collection-layout-section-landing #main-navigation li,
-.collection-layout-subsection-landing #main-navigation li{
+#main-navigation li,
+#main-navigation li{
   float: right;
 }
-.collection-layout-section-landing #main-navigation li:first-child,
-.collection-layout-subsection-landing #main-navigation li:first-child{
+#main-navigation li:first-child,
+#main-navigation li:first-child{
   margin-right:0.5em;
 }
 
-.collection-layout-section-landing #main-navigation li span.delimiter,
-.collection-layout-subsection-landing #main-navigation li span.delimiter{
+#main-navigation li span.delimiter,
+#main-navigation li span.delimiter{
   display: none;
 }
 
-.collection-layout-section-landing #main-navigation a,
-.collection-layout-subsection-landing #main-navigation a{
+#main-navigation a,
+#main-navigation a{
   text-transform: uppercase;
   display: block;
   margin: 0 0.4em;
 }
-
+#main-navigation a:link, 
+#main-navigation a:visited {
+    color: rgba(255,255,255,.5) !important;
+}
+#main-navigation a:active, 
+#main-navigation .active-link a, 
+#main-navigation .folder .active-folder {
+    color: #fff !important;
+}
     
 #banner-area-wrapper{
   overflow: hidden;
