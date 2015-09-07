@@ -38,10 +38,10 @@
 }
 
     
-.banner-area-wrapper{
+#banner-area-wrapper{
   overflow: hidden;
 }
-.banner-area-wrapper img.fill {
+#banner-area-wrapper img.fill {
   position: absolute;
   top: 0;
   left: 0;
