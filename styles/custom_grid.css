@@ -8,10 +8,7 @@
     overflow: hidden;
     position:relative;
 }
-.grid-item h1, 
-.inner-grid-item h1{
-    color:#222;
-}
+
 
 .grid-item small, 
 .inner-grid-item small{
@@ -92,13 +89,16 @@
     opacity: 1;
 
 }
+
 .grid-item h1, 
+.inner-grid-item h1{
+    color:#222;
+}
 .grid-item h2, 
 .grid-item h3, 
 .grid-item h4, 
 .grid-item h5, 
 .grid-item h6
-.inner-grid-item h1, 
 .inner-grid-item h2, 
 .inner-grid-item h3, 
 .inner-grid-item h4, 
