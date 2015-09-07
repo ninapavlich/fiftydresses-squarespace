@@ -48,3 +48,8 @@
   width:100%;
   z-index: -1;
 }
+#banner-area-wrapper .site-subtitle, 
+#banner-area-wrapper .page-description p, 
+#banner-area-wrapper .logo-subtitle{
+  color:#fff;
+}
