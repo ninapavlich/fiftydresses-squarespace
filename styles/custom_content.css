@@ -51,9 +51,12 @@
   margin-bottom:0;
 }
 .preview-item .description{
-
+  color: #777;
 }
 .preview-item .description *:first-child{
   margin-top:0;
 }
 
+.recent-projects > a{
+  float:right;
+}
