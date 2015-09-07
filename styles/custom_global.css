@@ -18,10 +18,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+a.arrow{
+    text-transform: uppercase;
+}
 a.arrow:after{
     content: "\f054";
     margin-left:10px;
-    text-transform: uppercase;
 }
 
 .inner-container{
