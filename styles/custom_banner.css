@@ -1,0 +1,36 @@
+.collection-layout-section-landing #main-navigation,
+.collection-layout-subsection-landing #main-navigation{
+  position: absolute;
+  top:0.5em;
+  left:0;
+  width:100%;
+}
+
+.collection-layout-section-landing #main-navigation ul,
+.collection-layout-subsection-landing #main-navigation ul{
+  overflow: auto;
+  zoom:1;
+
+  width:100%;
+  max-width: 1200px;
+  margin:auto;
+}
+
+.collection-layout-section-landing #main-navigation li,
+.collection-layout-subsection-landing #main-navigation li{
+  float: right;
+}
+
+.collection-layout-section-landing #main-navigation li span.delimiter,
+.collection-layout-subsection-landing #main-navigation li span.delimiter{
+  display: none;
+}
+
+.collection-layout-section-landing #main-navigation a,
+.collection-layout-subsection-landing #main-navigation a{
+  text-transform: uppercase;
+  display: block;
+  margin: 0 0.4em;
+}
+
+    
