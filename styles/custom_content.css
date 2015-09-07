@@ -24,7 +24,16 @@
 }
 .preview-item{
   float:left;
-  width: 33.33%;
+  width: 32.33%;
+  margin-right: 1%;
+}
+.preview-item{
+  float:left;
+  width: 32.66%;
+  margin-right: 1%;
+}
+.preview-item:nth-child(3n+1) {
+  margin-right:0;
 }
 .preview-item a{
 
@@ -47,3 +56,4 @@
 .preview-item .description *:first-child{
   margin-top:0;
 }
+
