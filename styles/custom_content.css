@@ -1,11 +1,19 @@
+.subsections{
+  overflow: auto;
+  zoom:1;
+}
+.subsections .featured-link{
+  float:left;
+  width: 33.33%;
+}
 .featured-link{
   float:left;
   width:250px;
   padding:2em;
   border: 1px solid #666;
-  width: 90%;
-  height: 90%;
-  margin: 5%;
+}
+.featured-link h2{
+  margin: 0;
 }
 
 
@@ -16,6 +24,7 @@
 }
 .preview-item{
   float:left;
+  width: 33.33%;
 }
 .preview-item a{
 
