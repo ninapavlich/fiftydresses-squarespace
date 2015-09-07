@@ -6,6 +6,7 @@
   display: block;
   float:left;
   border: 2px solid #121212;
+  position: relative;
 }
 .featured-link a{
   display: block;
