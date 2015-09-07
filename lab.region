@@ -11,7 +11,7 @@
 
         <div class="featured-link">
             <a href="{collection.fullUrl}">
-                <h3>{collection.title}</h3>
+                <h3>See What Others Have Made</h3>
             </a>
         </div>
 
@@ -23,7 +23,7 @@
 
         <div class="featured-link">
             <a href="{collection.fullUrl}">
-                <h3>{collection.title}</h3>
+                <h3>Read the {collection.title}</h3>
             </a>
         </div>
 
@@ -62,7 +62,7 @@
         </div>
 
         <squarespace:query collection="lab/projects" limit="1">
-            <a href="{collection.fullUrl}" class="arrow">See All</a>
+            <a href="{collection.fullUrl}" class="arrow">See All Projects</a>
         </squarespace:query>
 
     </section>
