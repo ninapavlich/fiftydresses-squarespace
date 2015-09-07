@@ -5,7 +5,7 @@
     </div>
 
 
-    <section class="subsections">
+    <section class="subsections thirds-container">
 
         <squarespace:query collection="lab/projects" limit="1">
 
@@ -45,19 +45,21 @@
 
         <h2>Recent Projects</h2>
 
-        <squarespace:query collection="lab/projects" limit="3" >
-        {.repeated section items}
-        <div class="preview-item">
-            <a href="{fullUrl}">
-                <div class="image-container">
-                    <img src="{assetUrl}" alt="" class="fill"/>
-                </div>
-                <h2>{title}</h2>
-                <div class="description">{collection.description}</div>          
-            </a>
+        <div class="thirds-container">
+            <squarespace:query collection="lab/projects" limit="3" >
+            {.repeated section items}
+            <div class="preview-item">
+                <a href="{fullUrl}">
+                    <div class="image-container">
+                        <img src="{assetUrl}" alt="" class="fill"/>
+                    </div>
+                    <h2>{title}</h2>
+                    <div class="description">{collection.description}</div>          
+                </a>
+            </div>
+            {.end}
+            </squarespace:query>
         </div>
-        {.end}
-        </squarespace:query>
 
         <squarespace:query collection="lab/projects" limit="1">
             <a href="{collection.fullUrl}" class="arrow">See All</a>
