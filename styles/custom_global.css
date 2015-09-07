@@ -21,6 +21,7 @@
 a.arrow:after{
     content: "\f054";
     margin-left:10px;
+    text-transform: uppercase;
 }
 
 .inner-container{
