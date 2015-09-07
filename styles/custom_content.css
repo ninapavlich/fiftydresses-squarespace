@@ -19,6 +19,7 @@
 }
 .featured-link a:hover{
   background-color:#121212;
+  color: #eee;
 }
 .featured-link h3{
   margin: 0;

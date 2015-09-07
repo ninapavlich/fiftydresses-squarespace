@@ -12,6 +12,8 @@
         <div class="featured-link">
             <a href="{collection.fullUrl}">
                 <h3>See What Others Have Made</h3>
+
+                <span class="fa fa-chevron-right"></span>
             </a>
         </div>
 
@@ -24,6 +26,8 @@
         <div class="featured-link">
             <a href="{collection.fullUrl}">
                 <h3>Read the {collection.title}</h3>
+
+                <span class="fa fa-chevron-right"></span>
             </a>
         </div>
 
@@ -34,6 +38,8 @@
         <div class="featured-link">
             <a href="{collection.fullUrl}">
                 <h3>{collection.title}</h3>
+
+                <span class="fa fa-chevron-right"></span>
             </a>
         </div>
 
