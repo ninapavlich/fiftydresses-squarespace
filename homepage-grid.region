@@ -10,7 +10,6 @@
                     {.section collection}
                       {description}
                     {.end}
-                    <pre>{@|json-pretty}</pre>
                 </div>
             </div>
         </div>
@@ -144,7 +143,7 @@
     </div>
 
     <div class="grid-item image bottom-filler double-wide">
-        <img src="http://static1.squarespace.com/static/4fba5732e4b0935259821a4a/t/55461d1ee4b0f3583640637e/1369768534229/RUTSIG_02_schoolsout.jpg" alt="" class="fill" />
+        <squarespace:block-field id="bottom-fillter-block-field" columns="12"/>
     </div>
 
     <div class="grid-item form reverse">
