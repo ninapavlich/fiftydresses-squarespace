@@ -4,7 +4,11 @@
 }
 .subsections .featured-link{
   float:left;
-  width: 33.33%;
+  width: 32.33%;
+  margin-right: 1%;
+}
+.subsections .featured-link:nth-child(3n+1) {
+  margin-right:0;
 }
 .featured-link{
   float:left;
@@ -40,7 +44,7 @@
 }
 .preview-item .image-container{
   overflow: hidden;
-  height:250px;
+  height:200px;
   width:100%;
 }
 .preview-item .image-container img{
