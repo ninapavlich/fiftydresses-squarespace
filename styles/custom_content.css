@@ -3,10 +3,14 @@
 }
 
 .featured-link{
+  display: block;
   float:left;
   padding: 1.5em;
   border: 2px solid #121212;
   text-align: center;
+}
+.featured-link:hover{
+  background-color:#121212;
 }
 .featured-link h3{
   margin: 0;
