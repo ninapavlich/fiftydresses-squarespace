@@ -3,7 +3,7 @@
         <div class="image-container">
             <img src="{assetUrl}" alt="" class="fill"/>
         </div>
-        <h2>Look ma! {title}</h2>
+        <h2>{title}</h2>
         <div class="description">{collection.description}</div>          
     </a>
 </div>
