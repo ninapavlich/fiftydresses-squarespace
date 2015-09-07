@@ -24,9 +24,11 @@
     letter-spacing: 3px;
 }
 .grid-item .description,
-.inner-grid-item .description{
+.grid-item .description *,
+.inner-grid-item .description,
+.inner-grid-item .description *{
     color: #cfcfcf !important;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .grid-item .center-inner,
 .inner-grid-item .center-inner{
@@ -102,7 +104,7 @@
 .inner-grid-item h4, 
 .inner-grid-item h5, 
 .inner-grid-item h6 {
-    color:#222;
+    color:#eee;
 }
 
 .grid-item.reverse,
@@ -115,20 +117,7 @@
 .inner-grid-item.reverse .center-outer.border{
     border: 1px solid #444;
 }
-.grid-item.reverse h1, 
-.grid-item.reverse h2, 
-.grid-item.reverse h3, 
-.grid-item.reverse h4, 
-.grid-item.reverse h5, 
-.grid-item.reverse h6
-.inner-grid-item.reverse h1, 
-.inner-grid-item.reverse h2, 
-.inner-grid-item.reverse h3, 
-.inner-grid-item.reverse h4, 
-.inner-grid-item.reverse h5, 
-.inner-grid-item.reverse h6 {
-    color:#eee;
-}
+
 
 .grid-item.reverse a.fill:hover,
 .inner-grid-item.reverse  a.fill:hover{
