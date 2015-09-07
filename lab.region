@@ -1,0 +1,73 @@
+<section class="container">
+    
+    <div class="main">
+    {squarespace.main-content}
+    </div>
+
+
+    <section class="subsections">
+
+        <squarespace:query collection="lab/projects" limit="1">
+
+        <div class="subsection">
+            <a href="{collection.fullUrl}">
+                <h2>{collection.title}</h2>
+            </a>
+        </div>
+
+        </squarespace:query>
+
+        
+
+        <squarespace:query collection="lab/faqs" limit="1">
+
+        <div class="subsection">
+            <a href="{collection.fullUrl}">
+                <h2>{collection.title}</h2>
+            </a>
+        </div>
+
+        </squarespace:query>
+
+        <squarespace:query collection="lab/schedule-your-class" limit="1">
+
+        <div class="subsection">
+            <a href="{collection.fullUrl}">
+                <h2>{collection.title}</h2>
+            </a>
+        </div>
+
+        </squarespace:query>
+
+    </section>
+
+    <section class="recent-projects">
+
+        <h2>Recent Projects</h2>
+
+        <squarespace:query collection="lab/projects" limit="3" featured="true">
+        {.repeated section items}
+        <div class="inner-grid-item featured">
+            <img src="{assetUrl}" alt="" class="fill" />
+            <a href="{fullUrl}" class="screen">
+
+                <div class="center-outer border">
+                    <div class="center-middle">
+                        <div class="center-inner">  
+                            <small>Featured Project</small>     
+                            <h2>{title}</h2>
+                        </div>
+                    </div>
+                </div>                    
+            </a>
+        </div>
+        {.end}
+        </squarespace:query>
+
+        <squarespace:query collection="lab/projects" limit="1">
+            <a href="{collection.fullUrl}" class="arrow">See All</a>
+        </squarespace:query>
+
+    </section>
+
+</section>
