@@ -45,7 +45,7 @@
 
         <h2>Recent Projects</h2>
 
-        <squarespace:query collection="lab/projects" limit="3" featured="true">
+        <squarespace:query collection="lab/projects" limit="3" >
         {.repeated section items}
         <div class="inner-grid-item featured">
             <img src="{assetUrl}" alt="" class="fill" />
