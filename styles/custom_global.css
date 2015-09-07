@@ -69,6 +69,9 @@ a.arrow:after{
 .thirds-container > *:nth-child(3n) {
   margin-right:0;
 }
+.thirds-container > *:nth-child(3n+1) {
+  clear:left;
+}
 
 /* form styles */
 input:-webkit-autofill {
