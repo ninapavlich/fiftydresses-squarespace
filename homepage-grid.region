@@ -143,7 +143,7 @@
     </div>
 
     <div class="grid-item image bottom-filler double-wide">
-        <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="{collection.title} Header Content" />
+        {squarespace.main-content}
     </div>
 
     <div class="grid-item form reverse">
