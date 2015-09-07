@@ -1,5 +1,5 @@
-.subsections{
-  margin:2em 0;
+.group{
+  margin:3em 0;
 }
 
 .featured-link{
@@ -16,9 +16,7 @@
 }
 
 
-.recent-projects{
-  margin-top:2em 0;
-}
+
 .preview-item a{
 
 }

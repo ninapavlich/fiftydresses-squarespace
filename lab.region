@@ -1,11 +1,11 @@
 <section class="inner-container">
     
-    <div class="main">
+    <div class="main group">
     {squarespace.main-content}
     </div>
 
 
-    <section class="subsections thirds-container">
+    <section class="subsections thirds-container group">
 
         <squarespace:query collection="lab/projects" limit="1">
 
@@ -41,7 +41,7 @@
 
     </section>
 
-    <section class="recent-projects">
+    <section class="recent-projects group">
 
         <h2>Recent Projects</h2>
 
