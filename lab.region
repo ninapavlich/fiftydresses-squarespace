@@ -49,7 +49,9 @@
         {.repeated section items}
         <div class="preview-item">
             <a href="{fullUrl}">
-                <img src="{assetUrl}" alt="" />
+                <div class="image-container">
+                    <img src="{assetUrl}" alt="" />
+                </div>
                 <h2>{title}</h2>
                 <div class="description">{collection.description}</div>          
             </a>
