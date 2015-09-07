@@ -38,7 +38,9 @@
 }
 
     
-
+.banner-area-wrapper{
+  overflow: hidden;
+}
 .banner-area-wrapper img.fill {
   position: absolute;
   top: 0;
