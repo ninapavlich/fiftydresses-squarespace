@@ -1,9 +1,7 @@
 .subsections{
   margin:2em 0;
 }
-.subsections .featured-link:nth-child(3n) {
-  margin-right:0;
-}
+
 .featured-link{
   float:left;
   width:250px;
