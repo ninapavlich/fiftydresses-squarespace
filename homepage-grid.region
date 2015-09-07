@@ -28,7 +28,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>{collection.title}</h2>
-                            {collection.description}
+                            <div class="description">{collection.description}</div>
                         </div>
                     </div>
                 </div>                 
@@ -69,7 +69,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>{collection.title}</h2>
-                            {collection.description}
+                            <div class="description">{collection.description}</div>
                         </div>
                     </div>
                 </div>                 
@@ -109,7 +109,7 @@
                     <div class="center-middle">
                         <div class="center-inner">  
                             <h2>{collection.title}</h2>
-                            {collection.description}
+                            <div class="description">{collection.description}</div>
                         </div>
                     </div>
                 </div>                 

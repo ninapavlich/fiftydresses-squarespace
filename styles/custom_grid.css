@@ -17,10 +17,16 @@
 .inner-grid-item small{
 
     text-transform: uppercase;
-    color: #aaa !important;
-    border-bottom: 1px solid #aaa;
+    color: #cfcfcf !important;
+    border-bottom: 1px solid #cfcfcf;
     margin-bottom: 0.5em;
     display: inline-block;
+    letter-spacing: 3px;
+}
+.grid-item .description,
+.inner-grid-item .description{
+    color: #cfcfcf !important;
+    letter-spacing: 1px;
 }
 .grid-item .center-inner,
 .inner-grid-item .center-inner{
@@ -57,6 +63,7 @@
     -o-transition: background 350ms ease-out;
     transition: background 350ms ease-out;
 }
+
 
 .grid-item span.screen{
     background: rgba(0,0,0,0.7);
