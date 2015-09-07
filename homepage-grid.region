@@ -40,8 +40,6 @@
 
         <squarespace:query collection="lab/projects" limit="1" featured="true">
         {.repeated section items}
-
-
         <div class="inner-grid-item featured">
             <img src="{assetUrl}" alt="" class="fill" />
             <a href="{fullUrl}" class="screen">
@@ -80,8 +78,6 @@
 
         <squarespace:query collection="shop" limit="1" featured="true">
         {.repeated section items}
-
-
         <div class="inner-grid-item featured">
             <img src="{assetUrl}" alt="" class="fill" />
             <a href="{fullUrl}" class="screen">
@@ -120,12 +116,9 @@
 
         <squarespace:query collection="about/news" limit="1">
             {.repeated section items}
-
-
             <div class="inner-grid-item featured">
                 <img src="{assetUrl}" alt="" class="fill" />
                 <a href="{fullUrl}" class="screen">
-
                     <div class="center-outer border">
                         <div class="center-middle">
                             <div class="center-inner">  
