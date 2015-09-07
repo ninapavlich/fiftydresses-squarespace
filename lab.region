@@ -11,7 +11,7 @@
 
         <div class="featured-link">
             <a href="{collection.fullUrl}">
-                <h2>{collection.title}</h2>
+                <h3>{collection.title}</h3>
             </a>
         </div>
 
@@ -23,7 +23,7 @@
 
         <div class="featured-link">
             <a href="{collection.fullUrl}">
-                <h2>{collection.title}</h2>
+                <h3>{collection.title}</h3>
             </a>
         </div>
 
@@ -33,7 +33,7 @@
 
         <div class="featured-link">
             <a href="{collection.fullUrl}">
-                <h2>{collection.title}</h2>
+                <h3>{collection.title}</h3>
             </a>
         </div>
 

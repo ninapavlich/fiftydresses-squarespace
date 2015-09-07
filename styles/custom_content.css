@@ -4,11 +4,13 @@
 
 .featured-link{
   float:left;
-  padding:2em;
+  padding: 1.5em;
   border: 1px solid #666;
 }
-.featured-link h2{
+.featured-link h3{
   margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 
