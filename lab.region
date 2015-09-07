@@ -68,7 +68,7 @@
         </div>
 
         <squarespace:query collection="lab/projects" limit="1">
-            <a href="{collection.fullUrl}" class="arrow fa">See All Projects</a>
+            <a href="{collection.fullUrl}" class="arrow icon">See All Projects</a>
         </squarespace:query>
 
     </section>
