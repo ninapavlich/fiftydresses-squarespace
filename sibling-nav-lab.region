@@ -1,20 +1,22 @@
-<ul class="subnav">
+<div class="subnav">
+    <ul>
 
-    <squarespace:query collection="lab/projects" limit="1">
-        <li>
-            <a href="{collection.fullUrl}">{collection.title}</a>
-        </li>
-    </squarespace:query>
+        <squarespace:query collection="lab/projects" limit="1">
+            <li>
+                <a href="{collection.fullUrl}">{collection.title}</a>
+            </li>
+        </squarespace:query>
 
-    <squarespace:query collection="lab/faqs" limit="1">
-        <li>
-            <a href="{collection.fullUrl}">{collection.title}</a>
-        </li>
-    </squarespace:query>
+        <squarespace:query collection="lab/faqs" limit="1">
+            <li>
+                <a href="{collection.fullUrl}">{collection.title}</a>
+            </li>
+        </squarespace:query>
 
-    <squarespace:query collection="lab/schedule-your-class" limit="1">
-        <li>
-            <a href="{collection.fullUrl}">{collection.title}</a>
-        </li>
-    </squarespace:query>
-</ul>
+        <squarespace:query collection="lab/schedule-your-class" limit="1">
+            <li>
+                <a href="{collection.fullUrl}">{collection.title}</a>
+            </li>
+        </squarespace:query>
+    </ul>
+</div>
