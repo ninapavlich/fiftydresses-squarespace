@@ -45,6 +45,10 @@
 #main-navigation .folder .active-folder {
     color: #fff !important;
 }
+#main-navigation a:link:hover, 
+#main-navigation a:visited:hover {
+    color:#fff !important;
+}
     
 #banner-area-wrapper{
   overflow: hidden;
