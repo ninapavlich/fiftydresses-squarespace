@@ -10,7 +10,7 @@
         <header>
 
          
-          {.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
+          {.if title}<h1 class="entry-title" data-content-field="title">{title}</h1>{.end}
 
       
           <span class="article-byline">
