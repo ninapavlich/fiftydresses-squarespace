@@ -59,7 +59,7 @@
             </squarespace:query>
         </div>
 
-        <squarespace:query collection="lab/news" limit="1">
+        <squarespace:query collection="about/news" limit="1">
             <a href="{collection.fullUrl}" class="arrow icon">See All News</a>
         </squarespace:query>
 
@@ -77,7 +77,7 @@
             </squarespace:query>
         </div>
 
-        <squarespace:query collection="lab/collections" limit="1">
+        <squarespace:query collection="about/collections" limit="1">
             <a href="{collection.fullUrl}" class="arrow icon">See All Collections</a>
         </squarespace:query>
 
