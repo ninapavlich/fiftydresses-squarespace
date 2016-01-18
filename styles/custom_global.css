@@ -16,6 +16,12 @@
     margin:auto;
 }
 
+#page-body-wrapper{
+    padding-top: 50px !important;
+}
+#sqs-block-content{
+    max-width: 800px;
+}
 
 #page-footer{
     text-align: left !important;
