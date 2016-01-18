@@ -1,6 +1,7 @@
 <section class="inner-container">
     
-
+  {squarespace.main-content}
+  
     <section class="recent-shop group">
 
       <div class="thirds-container">
