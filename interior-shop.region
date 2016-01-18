@@ -2,16 +2,4 @@
     
   {squarespace.main-content}
   
-    <section class="recent-shop group">
-
-      <div class="thirds-container">
-          <squarespace:query collection="shop">
-          {.repeated section items}
-          {@|apply preview-item.block}
-          {.end}
-          </squarespace:query>
-      </div>
-
-    </section>
-
 </section>
