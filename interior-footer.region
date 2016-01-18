@@ -1,6 +1,6 @@
 <footer id="page-footer" >
     
-  <div class="container" itemscope itemtype="http://schema.org/LocalBusiness">
+  <div class="inner-container" itemscope itemtype="http://schema.org/LocalBusiness">
     <h3 itemprop="name">{website.location.addressTitle}</h3>
     <address itemprop="address" >
     {website.location.addressLine1}<br />
