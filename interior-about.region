@@ -11,7 +11,7 @@
 
         <div class="featured-link">
             <a href="{collection.fullUrl}">
-                <h3>See What Others Have Made</h3>
+                <h3>See My Collections</h3>
 
                 <span class="fa fa-chevron-right"></span>
             </a>
