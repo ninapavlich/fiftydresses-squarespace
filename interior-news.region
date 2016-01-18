@@ -1,0 +1,16 @@
+<section class="inner-container">
+    
+
+    <section class="recent-news group">
+
+      <div class="thirds-container">
+          <squarespace:query collection="about/news">
+          {.repeated section items}
+          {@|apply preview-item.block}
+          {.end}
+          </squarespace:query>
+      </div>
+
+    </section>
+
+</section>
