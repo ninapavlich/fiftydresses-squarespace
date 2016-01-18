@@ -1,7 +1,10 @@
-<footer id="page-footer">
-  <h1>{website.location.addressTitle}</h1>
-  <address>
-  {website.location.addressLine1}<br />
-  {website.location.addressLine2} {website.location.addressCountry}
-  </address>
+<footer id="page-footer" >
+  
+  <div class="inner" itemscope itemtype="http://schema.org/LocalBusiness">
+    <h3 itemprop="name">{website.location.addressTitle}</h3>
+    <address itemprop="address" >
+    {website.location.addressLine1}<br />
+    {website.location.addressLine2} {website.location.addressCountry}
+    </address>
+  </div>
 </footer>
