@@ -1,7 +1,9 @@
 <section class="container grid needs-ready">
     
     
-    <div class="grid-item welcome">
+    
+    <div class="grid-item image welcome-filler triple-wide">
+        <img src="{collection.mainImage.assetUrl}" alt="" class="fill" />
 
         <div class="center-outer">
             <div class="center-middle">
@@ -13,9 +15,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="grid-item image welcome-filler double-wide">
-        <img src="{collection.mainImage.assetUrl}" alt="" class="fill" />
     </div>
 
     <div class="grid-item section double welcome-filler-right">
