@@ -1,0 +1,20 @@
+<ul class="subnav">
+
+    <squarespace:query collection="about/collections" limit="1">
+        <li>
+            <a href="{collection.fullUrl}">{collection.title}</a>
+        </li>
+    </squarespace:query>
+
+    <squarespace:query collection="about/news" limit="1">
+        <li>
+            <a href="{collection.fullUrl}">{collection.title}</a>
+        </li>
+    </squarespace:query>
+
+    <squarespace:query collection="about/tess" limit="1">
+        <li>
+            <a href="{collection.fullUrl}">{collection.title}</a>
+        </li>
+    </squarespace:query>
+</ul>

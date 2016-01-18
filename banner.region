@@ -17,3 +17,5 @@
   </div>
 </div><!-- banner-area-wrapper -->
 <squarespace:navigation navigationId="mainNav" template="main-navigation" />
+
+{@|apply sibling-navigation-lab.block}
