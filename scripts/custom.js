@@ -22,6 +22,8 @@ function resizeGridItems(){
     var layout_size = (grid_width > medium_breakpoint) ? "large" : (grid_width <= medium_breakpoint && grid_width > small_breakpoint)? "medium" : "small";
     var grid_item_width = (grid_width > medium_breakpoint) ? grid_width / 3 : (grid_width <= medium_breakpoint && grid_width > small_breakpoint)? grid_width / 2 : grid_width;
     
+    console.log("layout_size: "+layout_size+" grid_item_width: "+grid_item_width)
+
     $(".grid-item").css("width", grid_item_width);
     $(".grid-item").css("height", grid_item_width);
 
