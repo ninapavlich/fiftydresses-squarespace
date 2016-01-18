@@ -3,9 +3,9 @@
     <ul>
       <li>Filter:</li>
 
-      <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">All</a></li>
+      <li><a href="{fullUrl}" {.if categoryFilter}{.or} class="active all"{.end}>All</a></li>
       {.repeated section @}
-        <li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a></li>
+        <li><a href="{fullUrl}?category={@|url-encode}" {.equal? categoryFilter @} class="active"{.end}>{@}</a></li>
       {.end}
     </ul>
 </div>
