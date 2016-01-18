@@ -1,1 +1,86 @@
-about content
+<section class="inner-container">
+    
+    <div class="main group">
+    {squarespace.main-content}
+    </div>
+
+
+    <section class="subsections thirds-container group">
+
+        <squarespace:query collection="about/collections" limit="1">
+
+        <div class="featured-link">
+            <a href="{collection.fullUrl}">
+                <h3>See What Others Have Made</h3>
+
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+
+        </squarespace:query>
+
+        
+
+        <squarespace:query collection="about/news" limit="1">
+
+        <div class="featured-link">
+            <a href="{collection.fullUrl}">
+                <h3>Read the {collection.title}</h3>
+
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+
+        </squarespace:query>
+
+        <squarespace:query collection="about/tess" limit="1">
+
+        <div class="featured-link">
+            <a href="{collection.fullUrl}">
+                <h3>{collection.title}</h3>
+
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+
+        </squarespace:query>
+
+    </section>
+
+    <section class="recent-news group">
+
+        <h2>Recent News</h2>
+
+        <div class="thirds-container">
+            <squarespace:query collection="about/news" limit="3" >
+            {.repeated section items}
+            {@|apply preview-item.block}
+            {.end}
+            </squarespace:query>
+        </div>
+
+        <squarespace:query collection="lab/news" limit="1">
+            <a href="{collection.fullUrl}" class="arrow icon">See All News</a>
+        </squarespace:query>
+
+    </section>
+
+    <section class="recent-collections group">
+
+        <h2>Recent Collections</h2>
+
+        <div class="thirds-container">
+            <squarespace:query collection="about/collections" limit="3" >
+            {.repeated section items}
+            {@|apply preview-item.block}
+            {.end}
+            </squarespace:query>
+        </div>
+
+        <squarespace:query collection="lab/collections" limit="1">
+            <a href="{collection.fullUrl}" class="arrow icon">See All Collections</a>
+        </squarespace:query>
+
+    </section>
+
+</section>
