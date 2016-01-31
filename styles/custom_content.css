@@ -367,6 +367,9 @@
   position: relative;
   overflow: hidden;
 }
+.fixed-height-carousel.fixed-height-carousel-theme-default{
+  height:500px;
+}
 .fixed-height-carousel.fixed-height-carousel-theme-default .slide-container-outer {
   max-width: 1140px;
 }
