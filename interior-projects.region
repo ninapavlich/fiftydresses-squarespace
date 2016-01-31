@@ -1,26 +1,31 @@
 <section class="inner-container">
     
+
+    {.item?}
     
-    {.section item}
+      {.section item}
+        <h1>{title}</h1>
+        <p>{description}</p>
+      {.end}
+
+    {.or}
+
+      {.section collection}
       <h1>{title}</h1>
       <p>{description}</p>
-    {.end}
+      <section class="recent-projects group">
 
+        <div class="thirds-container">
+            <squarespace:query collection="lab/projects">
+            {.repeated section items}
+            {@|apply preview-item.block}
+            {.end}
+            </squarespace:query>
+        </div>
 
-    {.section collection}
-    <h1>{title}</h1>
-    <p>{description}</p>
-    <section class="recent-projects group">
+      </section>
+      {.end}
 
-      <div class="thirds-container">
-          <squarespace:query collection="lab/projects">
-          {.repeated section items}
-          {@|apply preview-item.block}
-          {.end}
-          </squarespace:query>
-      </div>
-
-    </section>
     {.end}
 
 </section>
