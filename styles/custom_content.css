@@ -70,7 +70,29 @@
   font-weight: bold !important;
 }
 
+.sidebar{
+  
+  background: #eee;
+  padding: 1em;
 
+  & > h3{
+    display: none;
+  }
+  li{
+    list-style-type: none;
+  }
+  & > ul{
+    padding:0;
+    & > li{
+      text-transform: uppercase;
+
+    }
+  }
+
+  a.active{
+    font-weight: bold;
+  }
+}
 
 
 /* CAROUSEL */

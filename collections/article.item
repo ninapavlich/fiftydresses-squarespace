@@ -64,7 +64,7 @@
       <div class="sidebar">
         <h3>Projects Subnav</h3>
         {.section collection}
-          <<ul>
+          <ul>
 
             <squarespace:query collection="about/collections" limit="1">
                 <li>
