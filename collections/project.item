@@ -58,16 +58,12 @@
 <div class="sidebar">
   <h3>Projects Subnav</h3>
   {.section collection}
-    <section class="recent-projects group">
-
-      <div class="thirds-container">
-          <squarespace:query collection="lab/projects">
-          {.repeated section items}
-          {@|apply sidebar-item.block}
-          {.end}
-          </squarespace:query>
-      </div>
-
-    </section>
+    <ul>
+      <squarespace:query collection="lab/projects">
+      {.repeated section items}
+      {@|apply sidebar-item.block}
+      {.end}
+      </squarespace:query>
+    </ul>
     {.end}
 </div>
