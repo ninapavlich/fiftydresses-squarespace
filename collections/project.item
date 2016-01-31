@@ -5,10 +5,6 @@
 
   <div class="content-wrapper">
 
-    <div class="gallery">
-    
-    </div>
-
      <div class="fixed-height-carousel unloaded fixed-height-carousel-theme-default" >
       <ul>
           {.repeated section customContent.gallery}  
