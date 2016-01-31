@@ -7,7 +7,7 @@
 
     GALLERY? {item.customContent.gallery} - {customContent.gallery}
 
-    {.repeated section @.customContent.gallery}  
+    {.repeated section customContent.gallery}  
       Gallery {@|apply gallery-item.block}
     {.end}
 
