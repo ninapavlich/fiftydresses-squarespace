@@ -1,0 +1,9 @@
+<section class="inner-container">
+  <section class="recent-news group">
+    <div class="thirds-container">
+      {.repeated section items}      
+        {@|apply preview-item.block}
+      {.end}
+    </div>
+  </section>
+</div>

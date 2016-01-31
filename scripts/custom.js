@@ -43,8 +43,14 @@ $( document ).ready(function() {
     $(".needs-ready").addClass("ready");
 
     if( $('.fixed-height-carousel').length > 0){
+      try {
         $('.fixed-height-carousel').fixedHeightCarousel({});    
+      }catch(e) { console.log("Error in carousel")}
     }    
+
+    try {
+        $(document).linkManager();    
+    }catch(e) { console.log("Error in link manager")}
 
     /* Listeners */
     $( window ).resize(function() {
