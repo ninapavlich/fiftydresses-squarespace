@@ -1,3 +1,4 @@
+{.section item}
 <div class="fixed-height-carousel unloaded fixed-height-carousel-theme-default" >
   <ul>
       {.repeated section customContent.gallery}  
@@ -12,7 +13,7 @@
 </div>
 
 <section class="inner-container">
-{.section item}
+
 
   <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
 
@@ -87,6 +88,8 @@
 
         
       </ul>
-      {.end}
+      
   </div>
 </div>
+
+{.end}
