@@ -5,9 +5,12 @@
 
   <div class="content-wrapper">
 
-    <div class="post{.passthrough?} link-list-item{.end}">
+    GALLERY? {item.customContent.gallery}
+    {.if item.customContent.gallery}
+      
+    {.end}
 
-    GALLERY? fields? {.fields} gallery? {.gallery}
+    <div class="post{.passthrough?} link-list-item{.end}">
 
     <!--POST HEADER-->
 
