@@ -60,3 +60,12 @@
 .recent-projects > a{
   float:right;
 }
+
+.homepage .grid-item:first-child{
+  color: #fff;
+  font-weight: bold;
+}
+.homepage .grid-item:first-child h1{
+  color: #fff;
+  font-weight: bold;
+}
