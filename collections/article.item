@@ -64,14 +64,20 @@
       <div class="sidebar">
         <h3>Projects Subnav</h3>
         {.section collection}
-          <ul>
+          <<ul>
+
+            <squarespace:query collection="about/collections" limit="1">
+                <li>
+                    <a href="{collection.fullUrl}">{collection.title}</a>
+                </li>
+            </squarespace:query>
 
             <li>
-              <squarespace:query collection="lab/projects" limit="1">
+              <squarespace:query collection="about/news" limit="1">
                 <a href="{collection.fullUrl}">{collection.title}</a>
               </squarespace:query>
               <ul>
-                <squarespace:query collection="lab/projects">
+                <squarespace:query collection="about/news">
                 {.repeated section items}
                 {@|apply sidebar-item.block}
                 {.end}
@@ -79,18 +85,16 @@
               </ul>
             </li>
 
-            <squarespace:query collection="lab/faqs" limit="1">
+            
+
+            <squarespace:query collection="about/tess" limit="1">
                 <li>
                     <a href="{collection.fullUrl}">{collection.title}</a>
                 </li>
             </squarespace:query>
 
-            <squarespace:query collection="lab/schedule-your-class" limit="1">
-                <li>
-                    <a href="{collection.fullUrl}">{collection.title}</a>
-                </li>
-            </squarespace:query>            
-          </ul>          
+            
+          </ul>       
       </div>
     </div>
   </div>
