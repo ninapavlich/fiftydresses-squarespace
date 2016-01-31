@@ -364,6 +364,22 @@
 .fixed-height-carousel{
   background:#eee;
   margin:2em 0;  
+  position: relative;
+}
+.fixed-height-carousel.fixed-height-carousel-theme-default .slide-container-outer {
+  max-width: 1140px;
+}
+.fixed-height-carousel.fixed-height-carousel-theme-default .ui .autoplay{
+  display: none;
+}
+.fixed-height-carousel.fixed-height-carousel-theme-default .ui .pagination{
+  display: none;
+}
+.fixed-height-carousel.fixed-height-carousel-theme-default .ui .arrows .next{
+  padding: 20px 0 20px .75em;
+}
+.fixed-height-carousel.fixed-height-carousel-theme-default .ui .arrows .previous{
+  padding: 20px .75em 20px 0;
 }
 
 
