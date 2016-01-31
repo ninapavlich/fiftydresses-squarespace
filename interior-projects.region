@@ -1,14 +1,16 @@
 <section class="inner-container">
     
 
-    {.item?}
+    
     
       {.section item}
+
+        {.item?}item{.or}no item{.end}
         <h1>{title}</h1>
         <p>{description}</p>
       {.end}
 
-    {.or}
+    
 
       {.section collection}
       <h1>{title}</h1>
@@ -26,6 +28,6 @@
       </section>
       {.end}
 
-    {.end}
+    
 
 </section>
