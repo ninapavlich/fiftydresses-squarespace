@@ -7,7 +7,7 @@
 
     <div class="gallery">
     {.repeated section customContent.gallery}  
-      <img src="{assetUrl}" />
+      {assetUrl} {title} body? {body}
     {.end}
     </div>
 
