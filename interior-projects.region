@@ -4,19 +4,14 @@
     
     
       {.section item}
-        {.item?}
 
+        {.item?}item{.or}{.end}
         <h1>{title}</h1>
         <p>{description}</p>
-        
-        {.end}
       {.end}
 
-    
+  
 
-      {.section item}
-
-      {.item?}{.or}
 
       {.section collection}
       <h1>{title}</h1>
@@ -34,8 +29,6 @@
       </section>
       {.end}
 
-      {.end}
-      {.end}
 
     
 
