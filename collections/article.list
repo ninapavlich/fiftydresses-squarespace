@@ -7,3 +7,10 @@
     </div>
   </section>
 </section>
+
+How about this way:
+ <squarespace:query collection="about/news">
+{.repeated section items}
+{@|apply preview-item.block}
+{.end}
+</squarespace:query>
