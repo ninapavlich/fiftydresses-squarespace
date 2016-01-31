@@ -1,13 +1,13 @@
 <section class="inner-container">
     
-    TITLE? {.if title}<h1>{title}</h1>{.end}
-
-    SECTION:
+    
     {.section item}
       <h1>{title}</h1>
       <p>{description}</p>
     {.end}
 
+
+    {.section collection}
     <section class="recent-projects group">
 
       <div class="thirds-container">
@@ -19,5 +19,6 @@
       </div>
 
     </section>
+    {.end}
 
 </section>
