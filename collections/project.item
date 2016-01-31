@@ -7,15 +7,7 @@
 
     <div class="post{.passthrough?} link-list-item{.end}">
 
-    {.main-image?}
-    <div class="excerpt-thumb">
-      <div class="intrinsic">
-        <div class="content">
-          <a href="{fullUrl}" class="excerpt-image content-fill"><img {@|image-meta} /></a>
-        </div>
-      </div>
-    </div>
-    {.end}
+    GALLERY? fields? {.fields} gallery? {.gallery}
 
     <!--POST HEADER-->
 
