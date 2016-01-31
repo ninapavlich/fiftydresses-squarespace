@@ -4,10 +4,12 @@
     
     
       {.section item}
+        {.item?}
 
-        {.item?}item{.or}{.end}
         <h1>{title}</h1>
         <p>{description}</p>
+
+        {.end}
       {.end}
 
   
