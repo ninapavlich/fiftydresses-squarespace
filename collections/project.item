@@ -8,7 +8,7 @@
     GALLERY? {item.customContent.gallery} - {customContent.gallery}
 
     {.repeated section @.customContent.gallery}  
-      <img src="{assetUrl}" style="width:250px" />
+      Gallery {@|apply gallery-item.block}
     {.end}
 
     <div class="post{.passthrough?} link-list-item{.end}">
