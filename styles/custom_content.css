@@ -365,6 +365,7 @@
   background:#eee;
   margin:2em 0;  
   position: relative;
+  overflow: hidden;
 }
 .fixed-height-carousel.fixed-height-carousel-theme-default .slide-container-outer {
   max-width: 1140px;
