@@ -67,5 +67,5 @@
 }
 .homepage .grid-item:first-child h1{
   color: #fff;
-  font-weight: bold;
+  font-weight: bold !important;
 }

@@ -1,5 +1,6 @@
 <section class="inner-container">
     
+    TITLE? {.if title}<h1>{title}</h1>{.end}
 
     <section class="recent-projects group">
 
