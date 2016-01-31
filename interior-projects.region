@@ -16,8 +16,6 @@
 
 
       {.section collection}
-      <h1>{title}</h1>
-      <p>{description}</p>
       <section class="recent-projects group">
 
         <div class="thirds-container">
