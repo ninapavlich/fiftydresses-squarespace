@@ -97,3 +97,19 @@
   color:rgba(255, 255, 255, 1);
   border-color:#fff;
 }
+
+.view-item #main-navigation a:link, 
+.view-item #main-navigation a:visited {
+  color: rgba(0,0,0,.5) !important;
+}
+.view-item #main-navigation a:active, 
+.view-item #main-navigation .active-link a, 
+.view-item #main-navigation .folder .active-folder {
+  color: #000 !important;
+}
+.view-item .subnav{
+  display: none;
+}
+.view-item #banner-area-wrapper{
+  display: none;
+}
