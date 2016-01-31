@@ -14,81 +14,86 @@
 
 <section class="inner-container">
 
+  <div class="grid">
 
-  <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
+    <div class="col-8-12">
+      <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
 
-  <div class="content-wrapper">
+        <div class="content-wrapper">
 
-     
+           
 
-    <div class="post{.passthrough?} link-list-item{.end}">
+          <div class="post{.passthrough?} link-list-item{.end}">
 
-    <!--POST HEADER-->
+          <!--POST HEADER-->
 
-      <header>
+            <header>
 
-          <span class="article-dateline-above-title">
-            <span class="date"><a href="{fullUrl}"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
-          </span>
+                <span class="article-dateline-above-title">
+                  <span class="date"><a href="{fullUrl}"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
+                </span>
 
-          {.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
+                {.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}" target="_blank">{title}<span class="passthrough">&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
 
-         
-          <span class="article-byline">
-            {.section location}<span class="location">{.if addressTitle}<a href="//maps.google.com/maps?q={mapLat},{mapLng}" target="_blank" title="View map in new window">{addressTitle}</a><span class="delimiter">/</span>{.end}</span>{.end}
-            {.section author}<span class="author"><a href="{collection.fullUrl}?author={id}" rel="author">{displayName}</a></span>{.end}
-          </span>
+               
+                <span class="article-byline">
+                  {.section location}<span class="location">{.if addressTitle}<a href="//maps.google.com/maps?q={mapLat},{mapLng}" target="_blank" title="View map in new window">{addressTitle}</a><span class="delimiter">/</span>{.end}</span>{.end}
+                  {.section author}<span class="author"><a href="{collection.fullUrl}?author={id}" rel="author">{displayName}</a></span>{.end}
+                </span>
 
-        </header>
+              </header>
 
-    <!--POST BODY-->
+          <!--POST BODY-->
 
-      {.section body}<div class="body entry-content">{@}</div>{.end}
+            {.section body}<div class="body entry-content">{@}</div>{.end}
 
-    
+          
 
-    </div><!-- /post -->
+          </div><!-- /post -->
 
-  </div><!-- /content-wrapper -->
-  </article>
-
-
-{.end}
+        </div><!-- /content-wrapper -->
+      </article>
+    </div>
 
 
-  <div class="sidebar">
-    <h3>Collections Subnav</h3>
-    {.section collection}
-      <ul>
+      {.end}
 
-        <li>
-          <squarespace:query collection="about/collections" limit="1">
-            <a href="{collection.fullUrl}">{collection.title}</a>
-          </squarespace:query>
+    <div class="col-4-12">
+      <div class="sidebar">
+        <h3>Collections Subnav</h3>
+        {.section collection}
           <ul>
-            <squarespace:query collection="about/collections">
-            {.repeated section items}
-            {@|apply sidebar-item.block}
-            {.end}
+
+            <li>
+              <squarespace:query collection="about/collections" limit="1">
+                <a href="{collection.fullUrl}">{collection.title}</a>
+              </squarespace:query>
+              <ul>
+                <squarespace:query collection="about/collections">
+                {.repeated section items}
+                {@|apply sidebar-item.block}
+                {.end}
+                </squarespace:query>
+              </ul>
+            </li>
+
+            <squarespace:query collection="about/news" limit="1">
+                <li>
+                    <a href="{collection.fullUrl}">{collection.title}</a>
+                </li>
             </squarespace:query>
+
+            <squarespace:query collection="about/tess" limit="1">
+                <li>
+                    <a href="{collection.fullUrl}">{collection.title}</a>
+                </li>
+            </squarespace:query>
+
+            
           </ul>
-        </li>
-
-        <squarespace:query collection="about/news" limit="1">
-            <li>
-                <a href="{collection.fullUrl}">{collection.title}</a>
-            </li>
-        </squarespace:query>
-
-        <squarespace:query collection="about/tess" limit="1">
-            <li>
-                <a href="{collection.fullUrl}">{collection.title}</a>
-            </li>
-        </squarespace:query>
-
-        
-      </ul>
-      
+          
+      </div>
+    </div>
   </div>
 </div>
 
