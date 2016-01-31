@@ -8,10 +8,17 @@
     GALLERY? {item.customContent.gallery} - {customContent.gallery}
 
 
-    {.if item.customContent.gallery}
-      {.repeated section item.customContent.gallery}  
-        {assetUrl}
-      {.end}
+  
+    {.repeated section item.customContent.gallery}  
+      TEST A - {assetUrl}
+    {.end}
+
+    {.repeated section @.customContent.gallery}  
+      TEST B - {assetUrl}
+    {.end}
+
+    {.repeated section .customContent.gallery}  
+      TEST C - {assetUrl}
     {.end}
 
     <div class="post{.passthrough?} link-list-item{.end}">
