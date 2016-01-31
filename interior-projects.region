@@ -3,7 +3,7 @@
     TITLE? {.if title}<h1>{title}</h1>{.end}
 
     SECTION:
-    {.section collection}
+    {.section item}
       <h1>{title}</h1>
       <p>{description}</p>
     {.end}
