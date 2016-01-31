@@ -5,11 +5,11 @@
 
   <div class="content-wrapper">
 
-    GALLERY? {item.customContent.gallery} - {customContent.gallery}
-
+    <div class="gallery">
     {.repeated section customContent.gallery}  
-      Gallery {url} <img src="{assetUrl}" style="width:250px" />
+      <img src="{assetUrl}" />
     {.end}
+    </div>
 
     <div class="post{.passthrough?} link-list-item{.end}">
 
