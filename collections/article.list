@@ -1,16 +1,13 @@
 <section class="inner-container">
   <section class="recent-news group">
     <div class="thirds-container">
-      {.repeated section items}      
-        {@|apply preview-item.block}
+      <!-- for some reason the normal query not working here... -->
+      <squarespace:query collection="about/news">
+      {.repeated section items}
+      {@|apply preview-item.block}
       {.end}
+      </squarespace:query>
     </div>
   </section>
 </section>
 
-How about this way:
- <squarespace:query collection="about/news">
-{.repeated section items}
-{@|apply preview-item.block}
-{.end}
-</squarespace:query>
