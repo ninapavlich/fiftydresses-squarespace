@@ -52,15 +52,3 @@
   </div>
 </nav>
 {.end}
-
-<!--COMMENTS-->
-
-{.section item}
-  {.comments?}
-  <div id="commenting">
-    <section id="comments-section" class="comments-wrapper">
-      {@|comments}
-    </section>
-  </div>
-  {.end}
-{.end}
