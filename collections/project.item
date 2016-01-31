@@ -5,7 +5,7 @@
 
   <div class="content-wrapper">
 
-    GALLERY? {item.customContent.gallery}
+    GALLERY? {.item.customContent.gallery} - {.customContent.gallery}
 
 
     {.if item.customContent.gallery}
