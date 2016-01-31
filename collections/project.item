@@ -6,8 +6,12 @@
   <div class="content-wrapper">
 
     GALLERY? {item.customContent.gallery}
+
+
     {.if item.customContent.gallery}
-      
+      {.repeated section item.customContent.gallery}  
+        {assetUrl}
+      {.end}
     {.end}
 
     <div class="post{.passthrough?} link-list-item{.end}">
