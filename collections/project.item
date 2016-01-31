@@ -63,7 +63,7 @@
       <div class="thirds-container">
           <squarespace:query collection="lab/projects">
           {.repeated section items}
-          {@|apply preview-item.block}
+          {@|apply sidebar-item.block}
           {.end}
           </squarespace:query>
       </div>

@@ -1,0 +1,5 @@
+<div class="preview-item">
+    <a href="{fullUrl}">
+        <h2>{title}</h2>
+    </a>
+</div>
