@@ -129,9 +129,9 @@
   display: none;
 }
 
-.no-banner-wrapper{
+#no-banner-wrapper{
   padding:50px 0;
 }
-.no-banner-wrapper h1{
+#no-banner-wrapper h1{
   color:#000;
 }

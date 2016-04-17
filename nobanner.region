@@ -1,4 +1,4 @@
-<div id="no-banner-wrapper container">
+<div id="no-banner-wrapper" class="container">
   <!-- // page title markup in banner area -->
   {.section collection}
     <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
