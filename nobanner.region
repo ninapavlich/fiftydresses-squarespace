@@ -1,16 +1,22 @@
 <div id="no-banner-wrapper" class="contain">
-  <!-- // page title markup in banner area -->
-  {.section collection}
+  
+
+  {.section item}
+    
+
     <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
       {.if title}<h1 id="page-title" class="page-title">{title}</h1>{.end}
       {.if description}<div id="page-description" class="page-description">{description}</div>{.end}
     </div>
-  {.end}
+  
 
-  {.section item}
-    Item exists.
   {.or}
-    Item does not exist.
+    {.section collection}
+      <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+        {.if title}<h1 id="page-title" class="page-title">{title}</h1>{.end}
+        {.if description}<div id="page-description" class="page-description">{description}</div>{.end}
+      </div>
+    {.end}
   {.end}
 
   <squarespace:navigation navigationId="mainNav" template="main-navigation" />
