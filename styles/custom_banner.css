@@ -17,7 +17,7 @@
   zoom:1;
 
   width:100%;
-  max-width: 1400px;
+  max-width: 1140px;
   margin:auto;
 }
 
@@ -110,11 +110,7 @@
 .view-item #main-navigation{
   
 }
-.view-item #main-navigation > ul{
-    margin: 1em auto;
-    width: 100%;
-    max-width: 1140px;
-}
+
 .view-item #main-navigation a:link, 
 .view-item #main-navigation a:visited {
   color: rgba(0,0,0,.5) !important;
