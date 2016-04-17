@@ -19,7 +19,7 @@
         </div>
 
         <squarespace:query collection="about/news" limit="1">
-            <div class="featured-link">
+            <div class="featured-link pull-right">
                 <a href="{collection.fullUrl}">
                     <h3>See All News</h3>
                     <span class="fa fa-chevron-right"></span>
@@ -42,7 +42,7 @@
         </div>
 
         <squarespace:query collection="about/collections" limit="1">
-            <div class="featured-link">
+            <div class="featured-link pull-right">
                 <a href="{collection.fullUrl}">
                     <h3>See All Collections</h3>
                     <span class="fa fa-chevron-right"></span>
