@@ -66,7 +66,7 @@
 
 .grid-item span.screen{
     background: rgba(0,0,0,0.7);
-    color:#eee;
+    color:#F9F9F9;
 }
 
 
@@ -104,13 +104,13 @@
 .inner-grid-item h4, 
 .inner-grid-item h5, 
 .inner-grid-item h6 {
-    color:#eee;
+    color:#F9F9F9;
 }
 
 .grid-item.reverse,
 .inner-grid-item.reverse{
     background-color:#222;
-    color:#eee;
+    color:#F9F9F9;
 }
 
 .grid-item.reverse .center-outer.border,

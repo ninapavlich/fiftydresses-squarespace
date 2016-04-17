@@ -24,7 +24,7 @@
 }
 .featured-link a:hover{
   background-color:#121212;
-  color: #eee;
+  color: #F9F9F9;
 }
 .featured-link h3{
   margin: 0;
@@ -81,35 +81,16 @@
 }
 
 .sidebar{
-  
-  background: #eee;
+  background: #F9F9F9;
   padding: 1em;
   margin-bottom:2em;
-
-  & > h3{
-    display: none;
-  }
-  li{
-    list-style-type: none;
-  }
-  & > ul{
-    padding:0;
-    & > li{
-      text-transform: uppercase;
-
-      & > ul{
-        text-transform: none;
-        text-transform: none;
-        padding-left: 25px;
-        margin:0;
-      }
-
-    }
-  }
-
-  a.active{
-    font-weight: bold;
-  }
+}
+.sidebar ul{
+  margin:0;
+}
+.sidebar li a{
+  padding: 0.25em 0;
+  display: block;
 }
 
 
@@ -402,7 +383,7 @@
 
 /* CUSTOM */
 .fixed-height-carousel{
-  background:#eee;
+  background:#F9F9F9;
   margin:2em 0;  
   position: relative;
   overflow: hidden;

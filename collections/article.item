@@ -15,7 +15,7 @@
 <section class="inner-container">
 
   <div class="grid">
-    <div class="col-8-12">
+    <div class="col-9-12">
       <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
 
         <div class="content-wrapper">
@@ -60,7 +60,7 @@
 
     {.end}
 
-    <div class="col-4-12">
+    <div class="col-3-12">
       <div class="sidebar">
         <h3>Projects Subnav</h3>
         {.section collection}
