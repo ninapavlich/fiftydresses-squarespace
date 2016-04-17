@@ -95,6 +95,11 @@
   margin-top:12.5px;
   color:#fff;
 }
+.subnav ul li:first-child{
+  border-right: 1px solid #fff;
+  padding-right: 1em;
+  text-transform: uppercase;
+}
 .subnav ul li a{
   color:#fff;
   color:rgba(255, 255, 255, 0.7);

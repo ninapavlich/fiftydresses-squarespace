@@ -85,14 +85,22 @@
   padding: 1em;
   margin-bottom:2em;
 }
+.sidebar h3{
+  display: none;
+}
 .sidebar ul{
   margin:0;
+  padding-left: 20px;
+}
+.sidebar > ul{
+  padding-left:0;
 }
 .sidebar li{
   list-style-type: none;
 }
 .sidebar li a{
-  padding: 0.25em 0;
+  line-height: 1;
+  padding: 0.5em 0;
   display: block;
 }
 
