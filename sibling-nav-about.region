@@ -1,5 +1,5 @@
-<div class="subnav container">
-    <ul>
+<div class="subnav">
+    <ul class="contain">
 
         <squarespace:query collection="about/collections" limit="1">
             <li>

@@ -1,6 +1,6 @@
 {.section collection}{.equal? typeName "products"}{.section categories}
-<div class="subnav container">
-    <ul>
+<div class="subnav">
+    <ul class="contain">
       <li>Filter:</li>
 
       <li><a href="{fullUrl}" {.if categoryFilter}{.or} class="active all"{.end}>All</a></li>

@@ -1,4 +1,4 @@
-.container{
+.contain{
   width: 100%;
   max-width: 1140px;
   margin: auto;
@@ -134,4 +134,8 @@
 }
 #no-banner-wrapper h1{
   color:#000;
+}
+#no-banner-wrapper + .subnav{
+  position: static;
+  background: rgba(0,0,0,.8);
 }
