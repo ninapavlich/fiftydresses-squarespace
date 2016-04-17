@@ -20,7 +20,7 @@
   display: block;
   width: 100%;
   padding: 1em;
-  
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -428,5 +428,15 @@
 }
 
 
-
-
+#productList{
+  margin-top:3em !important;
+}
+#productList .product .product-image .intrinsic>div{
+  position: static !important;
+}
+#productList .product .product-image img{
+  top:0 !important;
+  height:800px !important;
+  width:auto !important;
+  
+}
