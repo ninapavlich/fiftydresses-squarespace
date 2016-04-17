@@ -430,10 +430,11 @@
 
 #productList{
   margin-top:3em !important;
+  margin-left:0;
 }
 #productList .product{
-  width: 32%;
-  margin-left: 1%;
+  width: 31.33%;
+  margin-left: 2%;
 }
 #productList .product:nth-child(2n+1){
   clear:none;
@@ -444,6 +445,9 @@
 #productList .product .product-image img{
   top:0 !important;
   height:600px !important;
-  width:auto !important;
-  
+  width:auto !important; 
+}
+.product-item-size-43-four-thirds #productList .product .product-image .intrinsic, 
+.product-item-size-43-four-thirds #productList .product .product-quick-view-button-hover-zone{
+  padding-bottom: 0 !important;
 }
