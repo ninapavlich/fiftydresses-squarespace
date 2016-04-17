@@ -142,7 +142,7 @@
 
 #no-banner-wrapper #main-navigation a:link, 
 #no-banner-wrapper #main-navigation a:visited {
-    color: rgba(0,0,0,.5) !important;
+    color: rgba(0,0,0,.8) !important;
 }
 #no-banner-wrapper #main-navigation a:active, 
 #no-banner-wrapper #main-navigation .active-link a, 
