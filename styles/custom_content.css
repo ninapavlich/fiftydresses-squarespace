@@ -5,10 +5,10 @@
 .group{
   margin:3em 0;
 }
-.group > h2{
-    font-size: 3em;
-    font-family: "proxima-nova";
-    font-weight: 100;
+.group h2{
+  font-size: 3em;
+  font-family: "proxima-nova";
+  font-weight: 100;
 }
 .featured-link{
   display: block;
