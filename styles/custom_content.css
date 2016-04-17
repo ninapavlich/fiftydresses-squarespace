@@ -35,8 +35,8 @@
 
 
 
-.preview-item a{
-
+.preview-item{
+  margin-bottom:2em;
 }
 .preview-item .image-container{
   overflow: hidden;
@@ -51,6 +51,11 @@
 .preview-item .image-container img{
   width:100%;
 }
+.preview-item.tall .image-container img{
+  width:auto;
+  height:100%;
+}
+
 .preview-item h2{
   margin-top:0.5em;
   margin-bottom:0;
