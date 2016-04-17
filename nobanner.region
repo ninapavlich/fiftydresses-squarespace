@@ -7,5 +7,11 @@
     </div>
   {.end}
 
+  {.section item}
+    Item exists.
+  {.or}
+    Item does not exist.
+  {.end}
+
   <squarespace:navigation navigationId="mainNav" template="main-navigation" />
 </div>
