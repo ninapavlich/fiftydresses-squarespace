@@ -72,7 +72,7 @@
         <div class="thirds-container">
             <squarespace:query collection="about/collections" limit="3" >
             {.repeated section items}
-            {@|apply preview-item.block}
+            {@|apply preview-item-tall.block}
             {.end}
             </squarespace:query>
         </div>
