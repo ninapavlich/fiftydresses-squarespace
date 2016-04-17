@@ -108,10 +108,12 @@
 }
 
 .view-item #main-navigation{
-  position: static;
-  margin: 1em auto;
-  width: 100%;
-  max-width: 1140px;
+  
+}
+.view-item #main-navigation > ul{
+    margin: 1em auto;
+    width: 100%;
+    max-width: 1140px;
 }
 .view-item #main-navigation a:link, 
 .view-item #main-navigation a:visited {
