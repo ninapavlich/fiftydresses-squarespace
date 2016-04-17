@@ -1,4 +1,4 @@
-<div class="preview-item">
+<div class="preview-item tall">
     <a href="{fullUrl}">
         <div class="image-container">
             <img src="{assetUrl}" alt="" class="fill"/>
