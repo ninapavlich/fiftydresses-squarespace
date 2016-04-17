@@ -431,12 +431,19 @@
 #productList{
   margin-top:3em !important;
 }
+#productList .product{
+  width: 32%;
+  margin-left: 1%;
+}
+#productList .product:nth-child(2n+1){
+  clear:none;
+}
 #productList .product .product-image .intrinsic>div{
   position: static !important;
 }
 #productList .product .product-image img{
   top:0 !important;
-  height:800px !important;
+  height:600px !important;
   width:auto !important;
   
 }
