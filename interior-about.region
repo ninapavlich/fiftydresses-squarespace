@@ -5,47 +5,6 @@
     </div>
 
 
-    <section class="subsections thirds-container group">
-
-        <squarespace:query collection="about/collections" limit="1">
-
-        <div class="featured-link">
-            <a href="{collection.fullUrl}">
-                <h3>See My Collections</h3>
-
-                <span class="fa fa-chevron-right"></span>
-            </a>
-        </div>
-
-        </squarespace:query>
-
-        
-
-        <squarespace:query collection="about/news" limit="1">
-
-        <div class="featured-link">
-            <a href="{collection.fullUrl}">
-                <h3>Read the {collection.title}</h3>
-
-                <span class="fa fa-chevron-right"></span>
-            </a>
-        </div>
-
-        </squarespace:query>
-
-        <squarespace:query collection="about/tess" limit="1">
-
-        <div class="featured-link">
-            <a href="{collection.fullUrl}">
-                <h3>{collection.title}</h3>
-
-                <span class="fa fa-chevron-right"></span>
-            </a>
-        </div>
-
-        </squarespace:query>
-
-    </section>
 
     <section class="recent-news group">
 
@@ -60,7 +19,12 @@
         </div>
 
         <squarespace:query collection="about/news" limit="1">
-            <a href="{collection.fullUrl}" class="arrow icon">See All News</a>
+            <div class="featured-link">
+                <a href="{collection.fullUrl}">
+                    <h3>See All News</h3>
+                    <span class="fa fa-chevron-right"></span>
+                </a>
+            </div>
         </squarespace:query>
 
     </section>
@@ -78,7 +42,12 @@
         </div>
 
         <squarespace:query collection="about/collections" limit="1">
-            <a href="{collection.fullUrl}" class="arrow icon">See All Collections</a>
+            <div class="featured-link">
+                <a href="{collection.fullUrl}">
+                    <h3>See All Collections</h3>
+                    <span class="fa fa-chevron-right"></span>
+                </a>
+            </div>
         </squarespace:query>
 
     </section>
