@@ -1,4 +1,4 @@
-<div class="subnav">
+<div class="subnav container">
     <ul>
         <squarespace:query collection="lab/projects" limit="1">
             <li>

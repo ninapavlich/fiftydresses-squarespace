@@ -1,3 +1,8 @@
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
 #main-navigation,
 #main-navigation{
   position: absolute;
@@ -125,4 +130,11 @@
 }
 .view-item #banner-area-wrapper{
   display: none;
+}
+
+.no-banner-wrapper{
+  padding:50px 0;
+}
+.no-banner-wrapper h1{
+  color:#000;
 }
