@@ -1,6 +1,12 @@
 <div class="subnav">
     <ul class="contain">
 
+        <squarespace:query collection="about" limit="1">
+            <li>
+                <a href="{collection.fullUrl}">{collection.title}</a>
+            </li>
+        </squarespace:query>
+
         <squarespace:query collection="about/collections" limit="1">
             <li>
                 <a href="{collection.fullUrl}">{collection.title}</a>

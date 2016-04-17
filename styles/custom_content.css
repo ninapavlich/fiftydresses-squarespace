@@ -88,6 +88,9 @@
 .sidebar ul{
   margin:0;
 }
+.sidebar li{
+  list-style-type: none;
+}
 .sidebar li a{
   padding: 0.25em 0;
   display: block;
