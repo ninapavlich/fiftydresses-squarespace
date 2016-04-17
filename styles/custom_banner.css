@@ -139,3 +139,13 @@
   position: static;
   background: rgba(0,0,0,.8);
 }
+
+#no-banner-wrapper #main-navigation a:link, 
+#no-banner-wrapper #main-navigation a:visited {
+    color: rgba(0,0,0,.5) !important;
+}
+#no-banner-wrapper #main-navigation a:active, 
+#no-banner-wrapper #main-navigation .active-link a, 
+#no-banner-wrapper #main-navigation .folder .active-folder {
+    color: #000 !important;
+}
