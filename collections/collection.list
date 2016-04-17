@@ -2,7 +2,7 @@
   <section class="recent-collections group">
     <div class="thirds-container">
       {.repeated section items}      
-        {@|apply preview-item.block}
+        {@|apply preview-item-tall.block}
       {.end}
     </div>
   </section>
