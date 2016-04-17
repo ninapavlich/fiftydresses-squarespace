@@ -130,6 +130,9 @@
 .view-item #banner-area-wrapper{
   display: none;
 }
+.view-item .content-wrapper .entry-title{
+  display: none;
+}
 
 #no-banner-wrapper{
   padding:50px 0;
