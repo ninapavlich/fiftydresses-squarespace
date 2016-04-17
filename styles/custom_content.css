@@ -1,11 +1,15 @@
 .collection-layout-about-landing .sqs-block-image{
-  width:50%;
+  width:35.5%;
   float:right;
 }
 .group{
   margin:3em 0;
 }
-
+.group > h2{
+    font-size: 3em;
+    font-family: "proxima-nova";
+    font-weight: 100;
+}
 .featured-link{
   display: block;
   float:left;
@@ -15,7 +19,7 @@
 .featured-link a{
   display: block;
   width: 100%;
-  padding: 1em;
+  padding: 1em;.5
 
 
 
