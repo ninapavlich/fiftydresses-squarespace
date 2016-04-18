@@ -40,9 +40,9 @@
     </div>
     {.end}
 
-    <squarespace:query collection="galleries/lab-gallery" limit="3" >
+    <squarespace:query collection="lab-projects-gallery" >
     {.repeated section items}
-    GALLERY: {title}
+    GALLERY Item: {title}
     {.end}
     </squarespace:query>
 
