@@ -1,7 +1,7 @@
 <div class="preview-item">
     <a href="{fullUrl}">
         <div class="image-container">
-            <img src="{assetUrl}" alt="" class="fill"/>
+            <img src="{assetUrl}?format=450w" alt="" class="fill"/>
         </div>
         <h2>{title}</h2>
         <div class="description">{collection.description}</div>          

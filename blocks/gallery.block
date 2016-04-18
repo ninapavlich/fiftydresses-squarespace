@@ -4,7 +4,7 @@
         <li>
             <a href="{assetUrl}">
                 <figure>
-                    <img alt="{title}" src="{assetUrl}">
+                    <img alt="{title}" src="{assetUrl}?format=450w">
                     {.if title}
                     <figcaption>{title}</figcaption>
                     {.end}
