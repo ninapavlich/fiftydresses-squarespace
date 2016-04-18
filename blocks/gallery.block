@@ -1,4 +1,19 @@
-A GALLERY GOES HERE...
+<h3>Gallery: {title}</h3>
+
+<div class="gallery" >
+  <ul>
+      {.repeated section items}
+        <li>
+            <figure>
+                <img alt="{title}" src="{assetUrl}">
+                <figcaption>{title}</figcaption>
+            </figure>
+        </li>
+      {.end}
+  </ul>
+</div>
+
+
 
 <!-- PhotoSwipe Controls -->
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

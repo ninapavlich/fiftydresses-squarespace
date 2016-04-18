@@ -25,27 +25,12 @@
 
     </section>
 
-    {.section item}
-    <h2>See What Others Have Made</h2>
-    <div class="gallery" >
-      <ul>
-          {.repeated section customContent.gallery}  
-            <li>
-                <figure>
-                    <img alt="{title}" src="{assetUrl}">
-                </figure>
-            </li>
-          {.end}
-      </div>
-    </div>
-    {.end}
 
+    <h2>See What Others Have Made</h2>
     <squarespace:query collection="lab-projects-gallery" >
-    {.repeated section items}
-    GALLERY Item: {title}
-    {.end}
+    {@|apply gallery.block}
     </squarespace:query>
 
-    {@|apply gallery.block}
+    
 
 </section>
