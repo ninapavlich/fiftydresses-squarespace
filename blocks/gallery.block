@@ -2,12 +2,14 @@
   <ul class="thirds-container">
       {.repeated section items}
         <li>
-            <figure>
-                <img alt="{title}" src="{assetUrl}">
-                {.if title}
-                <figcaption>{title}</figcaption>
-                {.end}
-            </figure>
+            <a href="{assetUrl}">
+                <figure>
+                    <img alt="{title}" src="{assetUrl}">
+                    {.if title}
+                    <figcaption>{title}</figcaption>
+                    {.end}
+                </figure>
+            </a>
         </li>
       {.end}
   </ul>
