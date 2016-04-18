@@ -4,7 +4,9 @@
         <li>
             <figure>
                 <img alt="{title}" src="{assetUrl}">
+                {.if title}
                 <figcaption>{title}</figcaption>
+                {.end}
             </figure>
         </li>
       {.end}
