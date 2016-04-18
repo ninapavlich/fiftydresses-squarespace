@@ -2,9 +2,9 @@
   <ul class="thirds-container">
       {.repeated section items}
         <li>
-            <a href="{assetUrl}">
+            <a href="{assetUrl}" data-width="{originalSize|width}" data-height="{originalSize|height}">
                 <figure>
-                    <img alt="{title}" src="{assetUrl}?format=500w" data-width="{originalSize|width}" data-height="{originalSize|height}">
+                    <img alt="{title}" src="{assetUrl}?format=500w" >
                     {.if title}
                     <figcaption>{title}</figcaption>
                     {.end}
