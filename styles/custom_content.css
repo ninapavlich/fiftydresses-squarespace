@@ -453,3 +453,21 @@
 .product-item-size-43-four-thirds #productList .product .product-quick-view-button-hover-zone{
   padding-bottom: 0 !important;
 }
+
+
+.gallery ul{
+  padding:0;
+}
+.gallery ul li{
+  list-style-type: none;
+  height:600px;
+  overflow: hidden;
+}
+.gallery ul li img{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+
+
