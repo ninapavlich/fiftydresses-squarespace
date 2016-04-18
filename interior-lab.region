@@ -40,4 +40,12 @@
     </div>
     {.end}
 
+    <squarespace:query collection="galleries/lab-gallery" limit="3" >
+    {.repeated section items}
+    GALLERY: {title}
+    {.end}
+    </squarespace:query>
+
+    {@|apply gallery.block}
+
 </section>
