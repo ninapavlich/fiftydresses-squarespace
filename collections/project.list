@@ -1,9 +1,0 @@
-<section class="inner-container">
-  <section class="recent-projects group">
-    <div class="thirds-container">
-      {.repeated section items}      
-        {@|apply preview-item.block}
-      {.end}
-    </div>
-  </section>
-</section>
