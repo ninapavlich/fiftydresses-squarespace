@@ -2,7 +2,6 @@
 <div class="fixed-height-carousel unloaded fixed-height-carousel-theme-default" >
   <ul>
       {.repeated section customContent.gallery}  
-        <img src="{assetUrl}" alt="{title}" />
         <li>
             <figure>
                 <img alt="{title}" src="{assetUrl}">
