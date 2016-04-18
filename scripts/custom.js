@@ -60,7 +60,6 @@ function getGalleryItems(){
   return gallery_items;
 }
 var gallery_items = getGalleryItems();
-console.log("Found "+gallery_items.length+" gallery items");
 
 function openPhotoSwipe(index){
   var pswpElement = document.querySelectorAll('.pswp')[0];
@@ -100,6 +99,10 @@ $( document ).ready(function() {
             openPhotoSwipe(index);
         }
     });
+
+    gallery_items = getGalleryItems();
+    console.log("Found "+gallery_items.length+" gallery items");
+
 
     /* Listeners */
     $( window ).resize(function() {
