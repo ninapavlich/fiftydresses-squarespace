@@ -2,7 +2,7 @@
     <a href="{fullUrl}">
         <h2>{title}</h2>
         <div class="image-container">
-            <img src="{assetUrl}?format=600h" alt="" class="fill"/>
+            <img src="{assetUrl}" alt="" class="fill"/>
         </div>
         <div class="description">{collection.description}</div>          
     </a>
