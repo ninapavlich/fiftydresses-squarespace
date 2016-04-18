@@ -1,7 +1,5 @@
-<h3>Gallery: {title}</h3>
-
 <div class="gallery" >
-  <ul>
+  <ul class="thirds-container">
       {.repeated section items}
         <li>
             <figure>
