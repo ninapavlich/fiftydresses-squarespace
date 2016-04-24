@@ -10,6 +10,16 @@
         {.end}
     </ul>
   </div>
+
+  {.repeated section items}
+    {.image?}
+      <img {@|image-meta} />
+    {.end}
+    {.video?}
+      {@|video}
+    {.end}
+  {.end}
+  
   <div id="productWrapper">
     
     <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
