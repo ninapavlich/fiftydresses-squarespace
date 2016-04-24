@@ -3,6 +3,13 @@
   max-width: 1140px;
   margin: auto;
 }
+@media (max-width: 1165px) {
+    .contain{
+        padding-right: 24px !important;
+        padding-left: 24px !important; 
+    }
+}
+
 #main-navigation,
 #main-navigation{
   position: absolute;
