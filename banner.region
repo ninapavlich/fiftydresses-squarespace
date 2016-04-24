@@ -2,7 +2,7 @@
   <div id="banner-area">
 
   
-    <img src="{collection.mainImage.assetUrl}" alt="" class="" />
+    <img src="{collection.mainImage.assetUrl}" alt="" class="fit" />
 
     <div class="banner-overlay"></div>
 

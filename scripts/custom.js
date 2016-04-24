@@ -105,7 +105,7 @@ $( document ).ready(function() {
 
     gallery_items = getGalleryItems();
 
-    $(document).fitImage();  
+    $(document).fitImage({attributeSelector:".fill"});  
     
 
     /* Listeners */
