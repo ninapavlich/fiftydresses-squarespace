@@ -1,24 +1,20 @@
 {.section item}
+  <div class="fixed-height-carousel unloaded fixed-height-carousel-theme-default" >
+    <ul>
+        {.repeated section customContent.gallery}  
+          <li>
+              <figure>
+                  <img alt="{title}" src="{assetUrl}">
+              </figure>
+          </li>
+        {.end}
+    </ul>
+  </div>
   <div id="productWrapper">
-  TESTING 123
     
-    <!-- This displays all images/videos associated with the product. Style this accordingly. -->
-    <div id="productSlideshow">
-      {.repeated section items}
-        {.image?}
-          <img {@|image-meta} />
-        {.end}
-        {.video?}
-          {@|video}
-        {.end}
-      {.end}
-    </div>
-
     <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
     <div id="productDetails">
       {@|product-status}
-
-      <h1 class="product-title">{title}</h1>
 
       {@|product-price}
 

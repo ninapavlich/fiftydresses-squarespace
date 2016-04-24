@@ -503,4 +503,8 @@
 }
 
 
-
+/* products */
+#productDetails{
+  width:100%;
+  float:none;
+}
