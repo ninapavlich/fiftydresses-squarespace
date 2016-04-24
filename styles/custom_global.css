@@ -34,12 +34,13 @@
     color:#000;
 }
 
-@media only screen and (max-width: 1165px)
-body.canvas-setting-full-width #page-body, 
-body.canvas-setting-full-width #page-footer {
-    margin:0 !important;
-    padding-right: 24px !important;
-    padding-left: 24px !important; 
+@media (max-width: 1165px) {
+    body.canvas-setting-full-width #page-body, 
+    body.canvas-setting-full-width #page-footer {
+        margin:0 !important;
+        padding-right: 24px !important;
+        padding-left: 24px !important; 
+    }
 }
 
 .icon:before,
