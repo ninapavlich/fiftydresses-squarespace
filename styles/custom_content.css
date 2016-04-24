@@ -109,7 +109,7 @@
 }
 .sidebar li a{
   line-height: 1;
-  padding: 0.5em 0;
+  padding: 0.6em 0;
   display: block;
 }
 .sidebar li h4{
@@ -126,6 +126,9 @@
 }
 .sidebar li a.active h4{
   font-weight: bold;
+}
+.sidebar li a.active time{
+  font-weight: normal;
 }
 
 
