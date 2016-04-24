@@ -65,6 +65,12 @@
         {.section collection}
           <ul>
 
+            <squarespace:query collection="about" limit="1">
+                <li>
+                    <a href="{collection.fullUrl}">{collection.title}</a>
+                </li>
+            </squarespace:query>
+
             <squarespace:query collection="about/collections" limit="1">
                 <li>
                     <a href="{collection.fullUrl}">{collection.title}</a>
@@ -83,14 +89,6 @@
                 </squarespace:query>
               </ul>
             </li>
-
-            
-
-            <squarespace:query collection="about/tess" limit="1">
-                <li>
-                    <a href="{collection.fullUrl}">{collection.title}</a>
-                </li>
-            </squarespace:query>
 
             
           </ul>       

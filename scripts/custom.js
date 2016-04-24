@@ -101,8 +101,7 @@ $( document ).ready(function() {
     });
 
     gallery_items = getGalleryItems();
-    console.log("Found "+gallery_items.length+" gallery items");
-
+    
 
     /* Listeners */
     $( window ).resize(function() {

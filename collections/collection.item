@@ -62,6 +62,11 @@
         <h3>Collections Subnav</h3>
         {.section collection}
           <ul>
+            <squarespace:query collection="about" limit="1">
+                <li>
+                    <a href="{collection.fullUrl}">{collection.title}</a>
+                </li>
+            </squarespace:query>
 
             <li>
               <squarespace:query collection="about/collections" limit="1">
@@ -82,11 +87,6 @@
                 </li>
             </squarespace:query>
 
-            <squarespace:query collection="about/tess" limit="1">
-                <li>
-                    <a href="{collection.fullUrl}">{collection.title}</a>
-                </li>
-            </squarespace:query>
 
             
           </ul>
