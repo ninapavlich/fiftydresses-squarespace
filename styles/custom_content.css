@@ -112,6 +112,9 @@
   padding: 0.5em 0;
   display: block;
 }
+.sidebar li a.active{
+  font-weight: bold;
+}
 
 
 /* CAROUSEL */
