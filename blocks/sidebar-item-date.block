@@ -1,0 +1,6 @@
+<li>
+    <a href="{fullUrl}">
+      {title}
+      <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time>
+    </a>
+</li>

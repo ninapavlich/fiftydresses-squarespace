@@ -84,7 +84,7 @@
               <ul>
                 <squarespace:query collection="about/news">
                 {.repeated section items}
-                {@|apply sidebar-item.block}
+                {@|apply sidebar-item-block.block}
                 {.end}
                 </squarespace:query>
               </ul>
