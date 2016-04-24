@@ -1,7 +1,6 @@
-HELLP
 <li>
     <a href="{fullUrl}">
-      <h4>{title}</h5>
+      <h4>{title}</h4>
       <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time>
     </a>
 </li>
