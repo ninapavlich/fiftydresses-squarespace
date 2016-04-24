@@ -124,6 +124,9 @@
 .sidebar li a.active{
   font-weight: bold;
 }
+.sidebar li a.active h4{
+  font-weight: bold;
+}
 
 
 /* CAROUSEL */
