@@ -19,12 +19,7 @@
       <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
 
         <div class="content-wrapper">
-
-           
-
           <div class="post{.passthrough?} link-list-item{.end}">
-
-          <!--POST HEADER-->
 
             <header>
 
@@ -40,10 +35,9 @@
                   {.section author}<span class="author"><a href="{collection.fullUrl}?author={id}" rel="author">{displayName}</a></span>{.end}
                 </span>
 
-              </header>
+            </header>
 
-          <!--POST BODY-->
-
+          
             {.section body}<div class="body entry-content">{@}</div>{.end}
 
           
@@ -55,7 +49,7 @@
     </div>
 
 
-      {.end}
+{.end}
 
     <div class="col-3-12">
       <div class="sidebar">
@@ -82,18 +76,14 @@
             </li>
 
             <squarespace:query collection="about/news" limit="1">
-                <li>
-                    <a href="{collection.fullUrl}">{collection.title}</a>
-                </li>
+            <li>
+                <a href="{collection.fullUrl}">{collection.title}</a>
+            </li>
             </squarespace:query>
-
-
-            
           </ul>
-          
       </div>
     </div>
   </div>
-</div>
+</section>
 
 {.end}
