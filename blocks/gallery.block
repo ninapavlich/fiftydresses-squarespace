@@ -4,7 +4,7 @@
         <li>
             <a href="{assetUrl}" data-width="{originalSize|width}" data-height="{originalSize|height}">
                 <figure>
-                    <img alt="{title}" src="{assetUrl}?format=500w" >
+                    <img alt="{title}" src="{assetUrl}?format=500w" class="fit">
                     {.if title}
                     <figcaption>{title}</figcaption>
                     {.end}
