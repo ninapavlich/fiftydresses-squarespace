@@ -153,10 +153,16 @@
   background: rgba(0,0,0,.8);
 }
 
+
+.show-cart-page #main-navigation a:link, 
+.show-cart-page #main-navigation a:visited 
 #no-banner-wrapper #main-navigation a:link, 
 #no-banner-wrapper #main-navigation a:visited {
     color: rgba(0,0,0,.8) !important;
 }
+.show-cart-page #main-navigation a:active, 
+.show-cart-page #main-navigation .active-link a, 
+.show-cart-page #main-navigation .folder .active-folder 
 #no-banner-wrapper #main-navigation a:active, 
 #no-banner-wrapper #main-navigation .active-link a, 
 #no-banner-wrapper #main-navigation .folder .active-folder {
