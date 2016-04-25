@@ -162,7 +162,11 @@ body.banner-content-page-title-description #page-title-wrapper{
   position: static;
   background: rgba(0,0,0,.8);
 }
-
+#no-banner-wrapper #page-title-wrapper{
+  position: static !important; 
+  height:auto !important;
+  padding:0 !important;
+}
 
 .show-cart-page #main-navigation a:link, 
 .show-cart-page #main-navigation a:visited,
