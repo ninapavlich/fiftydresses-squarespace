@@ -58,8 +58,9 @@
 
     <div class="featured-link">
         <a href="/shop?">
+            <span class="fa fa-chevron-left"></span>
             <h3>Back to the shop</h3>
-            <span class="fa fa-chevron-right"></span>
+            
         </a>
     </div>
   </div>

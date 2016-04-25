@@ -25,8 +25,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.featured-link .fa{
+.featured-link .fa-chevron-right{
   margin-left:1em;
+  display: inline-block;
+}
+.featured-link .fa-chevron-left{
+  margin-right:1em;
   display: inline-block;
 }
 .featured-link a:hover{
