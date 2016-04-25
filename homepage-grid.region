@@ -3,18 +3,7 @@
     
     
     <div class="grid-item image welcome-filler triple-wide">
-        <img src="{collection.mainImage.assetUrl}?format=500w" alt="" class="fill" />
-
-        <div class="center-outer">
-            <div class="center-middle">
-                <div class="center-inner">  
-                    <h1>{website.location.addressTitle}</h1>
-                    {.section collection}
-                      {description}
-                    {.end}
-                </div>
-            </div>
-        </div>
+        <img src="/logo_wide.png" alt="{website.location.addressTitle}" class="fill" />
     </div>
 
     <div class="grid-item section double welcome-filler-right">
