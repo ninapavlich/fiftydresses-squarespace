@@ -32,7 +32,7 @@
       <h3>Shop</h3>
       {.section collection}
         <ul>
-          <squarespace:query collection="product">
+          <squarespace:query collection="products">
           {.repeated section items}
           ITEM?
           {@|apply sidebar-item.block}
