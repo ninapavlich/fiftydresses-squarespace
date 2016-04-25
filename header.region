@@ -29,7 +29,7 @@
 		
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
-  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.section mainImage} has-page-thumbnail{.end}{.end} {.image?}{.or}no-banner{.end}" id="{squarespace.page-id}" ontouchstart="">
+  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.section mainImage} has-page-thumbnail{.end}{.end} {.section item}{.image?}has-image{.or}no-image{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
 
 		{.if template.mobileStylesEnabled}
 		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
