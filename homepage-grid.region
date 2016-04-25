@@ -35,7 +35,7 @@
         </squarespace:query>
 
 
-        <squarespace:query collection="lab-projects-gallery" >
+        <squarespace:query collection="lab-projects-gallery" limit="2">
         {.repeated section items}
         <div class="inner-grid-item featured">
             <img src="{assetUrl}?format=500w" alt="" class="fill" />
@@ -53,10 +53,6 @@
             </a>
         </div>
         {.end}
-        </squarespace:query>  
-
-        <squarespace:query collection="lab-projects-gallery" >
-        {@|apply gallery.block}
         </squarespace:query>
  
 
