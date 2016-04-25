@@ -57,7 +57,7 @@
   <div class="clearfix pad-bottom">
 
     <div class="featured-link">
-        <a href="/shop?">
+        <a href="/shop/">
             <span class="fa fa-chevron-left"></span>
             <h3>Back to the shop</h3>
             
