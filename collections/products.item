@@ -24,11 +24,12 @@
     <div id="productWrapper">
       
       Product info goes here...
-      
+
     </div>
   </div>
   <div class="col-3-12">
     <div class="sidebar">
+      <h3>Shop</h3>
       {.section collection}
         <ul>
           <squarespace:query collection="products" limit="1">
