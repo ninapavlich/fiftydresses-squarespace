@@ -1,3 +1,4 @@
+{.image?}
 <div id="banner-area-wrapper">
   <div id="banner-area">
 
@@ -16,6 +17,8 @@
 
   </div>
 </div><!-- banner-area-wrapper -->
+{.end}
+
 <squarespace:navigation navigationId="mainNav" template="main-navigation" />
 
 {@|apply sibling-navigation-lab.block}
