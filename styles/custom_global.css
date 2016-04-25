@@ -32,7 +32,9 @@
     }
 }
 
-
+.pad-bottom{
+    margin-bottom:2em;
+}
 
 #page-body-wrapper{
     padding-top: 50px !important;
