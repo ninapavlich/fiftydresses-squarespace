@@ -49,6 +49,11 @@
     width:100%;
     z-index: -1;
 }
+.grid-item img.logo{
+    width: 1000px;
+    margin: 4em auto;
+    display: block;
+}
 .grid-item a.fill,
 .grid-item span.screen,
 .grid-item a.screen{
