@@ -1,26 +1,22 @@
 {.section item}
-</div>
+</section>
+
   <div class="fixed-height-carousel unloaded fixed-height-carousel-theme-default" >
     <ul>
-        {.repeated section customContent.gallery}  
+      {.repeated section items}
+        {.image?}
           <li>
               <figure>
                   <img alt="{title}" src="{assetUrl}">
               </figure>
           </li>
         {.end}
+      {.end}
     </ul>
   </div>
 
 
-  {.repeated section items}
-    {.image?}
-      <img {@|image-meta} />
-    {.end}
-    {.video?}
-      {@|video}
-    {.end}
-  {.end}
+  
 
 <section class="inner-container">
   <div id="productWrapper">
