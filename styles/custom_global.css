@@ -165,7 +165,7 @@ input:not([type=submit]):not([type=file]) {
 input:not([type=submit]):not([type=file]){
     background: rgba(255,255,255,.1);
     text-shadow: none !important;
-    border: none !important;
+    border: 1px solid #999;
     box-shadow: none !important;
     padding: 0.4em 1em 0.25em;
     width: auto;
@@ -178,6 +178,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     text-shadow: none !important;
     border: none !important;
     box-shadow: none !important;
+    font-size: 0.9rem;
 }
 
 input[type=submit]:hover {
@@ -188,8 +189,8 @@ form#mc-embedded-subscribe-form{
     max-width: 350px;
     margin:auto;
 }
-form .mc-field-group #mce-email{
-    width:65%;
+form .mc-field-group #mce-EMAIL{
+    width:63%;
 }
 form .mc-field-group #mc-embedded-subscribe{
     width: 35%;
