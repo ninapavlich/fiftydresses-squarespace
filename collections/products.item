@@ -23,16 +23,37 @@
   <div class="col-9-12">
     <div id="productWrapper">
       
-      Product info goes here...
+      <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
+      <div id="productDetails">
+        {@|product-status}
+
+        {@|product-price}
+
+        {.excerpt?}
+          <div class="product-excerpt">
+            {excerpt}
+          </div>
+        {.end}
+
+        {@|product-checkout}
+      </div>
+
+      <!-- This displays any text/blocks added to the Additional Info tab -->
+      {.section body}
+      <div class="product-description">
+        {@}
+      </div>
 
     </div>
   </div>
   <div class="col-3-12">
+
+    <!-- Not currently working -->
     <div class="sidebar">
       <h3>Shop</h3>
       {.section collection}
         <ul>
-          <squarespace:query collection="products">
+          <squarespace:query collection="products" limit="10">
           {.repeated section items}
           ITEM?
           {@|apply sidebar-item.block}
