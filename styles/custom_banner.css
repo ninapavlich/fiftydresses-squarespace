@@ -158,7 +158,7 @@
 .show-cart-page #main-navigation a:visited 
 #no-banner-wrapper #main-navigation a:link, 
 #no-banner-wrapper #main-navigation a:visited {
-    /*color: rgba(0,0,0,.8) !important;*/
+    color: rgba(0,0,0,.8) !important;
 }
 .show-cart-page #main-navigation a:active, 
 .show-cart-page #main-navigation .active-link a, 
