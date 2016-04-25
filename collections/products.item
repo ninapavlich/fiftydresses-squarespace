@@ -54,10 +54,13 @@
     </div>
   </div>
 
-  <div class="featured-link">
-      <a href="/shop?">
-          <h3>Back to the shop</h3>
-          <span class="fa fa-chevron-right"></span>
-      </a>
+  <div class="col-12-12">
+
+    <div class="featured-link">
+        <a href="/shop?">
+            <h3>Back to the shop</h3>
+            <span class="fa fa-chevron-right"></span>
+        </a>
+    </div>
   </div>
 {.end}
