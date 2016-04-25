@@ -162,9 +162,24 @@ input:not([type=submit]):not([type=file]) {
     background: rgba(255,255,255,0.1);
     margin: 0 0 10px 0;
 }
-input[type=submit] {
-    color:#222 !important;
+input:not([type=submit]):not([type=file]){
+    background: rgba(255,255,255,.1);
+    text-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0.4em 1em 0.25em;
+    width: auto;
+    color:#fff;
 }
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    color: #222 !important;
+    padding: 0.4em 1em 0.25em;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
 input[type=submit]:hover {
     background:#999;
 }
@@ -173,9 +188,12 @@ form#mc-embedded-subscribe-form{
     max-width: 350px;
     margin:auto;
 }
-form .row #mce-email{
+form .mc-field-group #mce-email{
     width:65%;
 }
-form .row #mc-embedded-subscribe{
+form .mc-field-group #mc-embedded-subscribe{
     width: 35%;
 }
+
+
+
