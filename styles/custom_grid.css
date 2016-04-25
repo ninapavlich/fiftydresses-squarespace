@@ -71,13 +71,13 @@
 
 
 .grid-item a.screen{
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0.5);
 }
 
 .grid-item a.screen:hover{
     background: rgba(0,0,0,0.8);
 }
-
+/*
 .grid-item a.screen *{
     -moz-opacity: 0.00;
     -khtml-opacity: 0.00;
@@ -88,7 +88,7 @@
     -khtml-opacity: 1;
     opacity: 1;
 
-}
+}*/
 
 .grid-item h1, 
 .inner-grid-item h1{
