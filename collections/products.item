@@ -39,6 +39,7 @@
       <div class="product-description">
         {@}
       </div>
+      {.end}
 
     </div>
   </div>
