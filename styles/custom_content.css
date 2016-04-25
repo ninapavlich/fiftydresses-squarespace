@@ -54,7 +54,7 @@
 }
 .preview-item.tall .image-container{
   overflow: hidden;
-  height:400px;
+  height:600px;
   width:100%;
 }
 .preview-item .image-container img{
@@ -481,7 +481,7 @@
   width: 24%;
   height: 450px;
   overflow: hidden;
-  margin-bottom: 1%;
+  margin-bottom: 1.33%;
 }
 .gallery ul li figure{
   width: 100%;
