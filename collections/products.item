@@ -1,4 +1,5 @@
 {.section item}
+</div>
   <div class="fixed-height-carousel unloaded fixed-height-carousel-theme-default" >
     <ul>
         {.repeated section customContent.gallery}  
@@ -11,6 +12,7 @@
     </ul>
   </div>
 
+
   {.repeated section items}
     {.image?}
       <img {@|image-meta} />
@@ -19,7 +21,8 @@
       {@|video}
     {.end}
   {.end}
-  
+
+<section class="inner-container">
   <div id="productWrapper">
     
     <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
