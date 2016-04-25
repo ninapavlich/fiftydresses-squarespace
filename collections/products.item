@@ -19,36 +19,45 @@
   
 
 <section class="inner-container">
+  <div id="productWrapper">
 
-  <div class="col-9-12">
-    <div id="productWrapper">
-      
-      <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
-      <div id="productDetails">
-        {@|product-status}
-      
-        {.excerpt?}
-          <div class="product-excerpt">
-            {excerpt}
-          </div>
+    <div class="col-9-12">
+      <div >
+        
+        <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
+        <div id="productDetails">
+          {@|product-status}
+        
+          {.excerpt?}
+            <div class="product-excerpt">
+              {excerpt}
+            </div>
+          {.end}
+
+        </div>
+
+        {.section body}
+        <div class="product-description">
+          {@}
+        </div>
         {.end}
 
       </div>
+    </div>
+    <div class="col-3-12">
 
-      {.section body}
-      <div class="product-description">
-        {@}
-      </div>
-      {.end}
+      {@|product-price}
 
+      {@|product-checkout}
+         
+     
     </div>
   </div>
-  <div class="col-3-12">
 
-    {@|product-price}
-
-    {@|product-checkout}
-       
-   
+  <div class="featured-link">
+      <a href="/shop?">
+          <h3>Back to the shop</h3>
+          <span class="fa fa-chevron-right"></span>
+      </a>
   </div>
 {.end}
