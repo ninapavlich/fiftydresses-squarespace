@@ -43,6 +43,7 @@
     max-width: 800px;
 }
 
+/* FOOTER */
 #page-footer{
     text-align: left !important;
     width: 100%;
@@ -52,6 +53,13 @@
 #page-footer h3{
     margin-bottom:0;
     color:#000;
+}
+#page-footer form h2{
+    font-size: 1rem;
+    margin: 0 0 6px;
+}
+#page-footer address{
+    font-style: normal;
 }
 
 @media (max-width: 1165px) {
@@ -205,8 +213,5 @@ form .mc-field-group #mc-embedded-subscribe{
     float:right;
 }
 
-#page-footer form h2{
-    font-size: 1rem;
-    margin: 0 0 6px;
-}
+
 
