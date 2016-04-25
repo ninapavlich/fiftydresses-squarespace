@@ -78,6 +78,9 @@ body.banner-content-page-title-description #page-title-wrapper{
 }
 #banner-area{
   max-width: none;
+  padding:0 !important;
+  height: 500px;
+  overflow: hidden;
 }
 #banner-area-wrapper{
   overflow: hidden;
