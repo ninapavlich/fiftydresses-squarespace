@@ -1,5 +1,5 @@
 <div class="gallery" >
-  <ul class="thirds-container">
+  <ul class="fourths-container">
       {.repeated section items}
         <li>
             <a href="{assetUrl}" data-width="{originalSize|width}" data-height="{originalSize|height}">
