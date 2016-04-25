@@ -75,66 +75,8 @@
             </a>
         </div>
         </squarespace:query>   
-
-
-        <squarespace:query collection="shop" limit="1" >
-        {.repeated section items}
-        <div class="inner-grid-item featured">
-            <img src="{assetUrl}" alt="" class="fill" />
-            <a href="{fullUrl}" class="screen">
-
-                <div class="center-outer border">
-                    <div class="center-middle">
-                        <div class="center-inner"> 
-                            <small>Featured in the Shop</small> 
-                            <h2>{title}</h2>
-                        </div>
-                    </div>
-                </div>                    
-            </a>
-        </div>
-        {.end}
-        </squarespace:query>
         
-        <squarespace:query collection="products" limit="1" >
-        {.repeated section items}
-        <div class="inner-grid-item featured">
-            <img src="{assetUrl}" alt="" class="fill" />
-            <a href="{fullUrl}" class="screen">
 
-                <div class="center-outer border">
-                    <div class="center-middle">
-                        <div class="center-inner"> 
-                            <small>Featured in the Shop</small> 
-                            <h2>{title}</h2>
-                        </div>
-                    </div>
-                </div>                    
-            </a>
-        </div>
-        {.end}
-        </squarespace:query>
-
-        <squarespace:query collection="shop" limit="1" >
-        {.repeated section items}
-        <div class="inner-grid-item featured">
-            <img src="{assetUrl}" alt="" class="fill" />
-            <a href="{fullUrl}" class="screen">
-
-                <div class="center-outer border">
-                    <div class="center-middle">
-                        <div class="center-inner"> 
-                            <small>Featured in the Shop</small> 
-                            <h2>{title}</h2>
-                        </div>
-                    </div>
-                </div>                    
-            </a>
-        </div>
-        {.end}
-        </squarespace:query>
-        
-        
         
     </div>
     <div class="grid-item section double">
