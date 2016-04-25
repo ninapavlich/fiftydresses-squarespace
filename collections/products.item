@@ -32,22 +32,12 @@
       <h3>Shop</h3>
       {.section collection}
         <ul>
-          <squarespace:query collection="products" limit="1">
-              <li>
-                  <a href="{collection.fullUrl}">products {collection.title}</a>
-              </li>
+          <squarespace:query collection="shop">
+          {.repeated section items}
+          {@|apply sidebar-item.block}
+          {.end}
           </squarespace:query>
-          <squarespace:query collection="shop" limit="1">
-              <li>
-                  <a href="{collection.fullUrl}">shop {collection.title}</a>
-              </li>
-          </squarespace:query>
-          <squarespace:query collection="product" limit="1">
-              <li>
-                  <a href="{collection.fullUrl}">product {collection.title}</a>
-              </li>
-          </squarespace:query>
-        </ul>       
+        </ul>      
     </div>
   </div>
 {.end}
