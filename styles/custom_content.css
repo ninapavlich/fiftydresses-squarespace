@@ -54,7 +54,7 @@
 }
 .preview-item.tall .image-container{
   overflow: hidden;
-  height:600px;
+  height:400px;
   width:100%;
 }
 .preview-item .image-container img{
@@ -453,7 +453,7 @@
   width: 102% !important;
 }
 #productList .product{
-  width: 31.33%;
+  width: 23%;
   margin-left: 2%;
 }
 #productList .product:nth-child(2n+1){
@@ -464,7 +464,7 @@
 }
 #productList .product .product-image img{
   top:0 !important;
-  height:600px !important;
+  height:400px !important;
   width:auto !important; 
 }
 .product-item-size-43-four-thirds #productList .product .product-image .intrinsic, 
