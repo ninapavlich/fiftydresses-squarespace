@@ -22,10 +22,9 @@
                     <input name="b_bf457f961eee1201c74374475_ca61504bc1" tabindex=
                     "-1" type="text" value="">
                 </div>
-                <div class="mc-field-group">
-                    <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe">
+                <div class="mc-field-group cleafix">
                     <input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value="" placeholder="Email Address">
-                    
+                    <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe">
                 </div>
                 <div class="clear" id="mce-responses">
                     <div class="response" id="mce-error-response" style=
