@@ -520,6 +520,16 @@
   text-decoration: line-through;
   color: #999;
 }
+.product-mark.sale{
+  float: right;
+  background: #222;
+  padding: 6px 8px;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 12px;
+}
 body:not(.button-style-default).button-corner-style-square .sqs-editable-button{
   color: #fff !important;
 }
