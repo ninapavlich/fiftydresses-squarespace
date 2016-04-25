@@ -168,6 +168,7 @@ input:not([type=submit]):not([type=file]){
     border: 1px solid #999;
     box-shadow: none !important;
     padding: 0.4em 1em 0.25em;
+    margin:0;
     width: auto;
     color:#fff;
 }
@@ -189,11 +190,14 @@ form#mc-embedded-subscribe-form{
     max-width: 350px;
     margin:auto;
 }
+
 form .mc-field-group #mce-EMAIL{
-    width:63%;
+    overflow: hidden;
+    height: 35px;
 }
 form .mc-field-group #mc-embedded-subscribe{
-    width: 35%;
+    height: 35px;
+    float:right;
 }
 
 
