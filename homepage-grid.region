@@ -37,17 +37,19 @@
         </squarespace:query>
 
 
-        <squarespace:query collection="lab/projects" limit="1" featured="true">
+        <squarespace:query collection="lab-projects-gallery" limit="1">
         {.repeated section items}
         <div class="inner-grid-item featured">
-            <img src="{assetUrl}" alt="" class="fill" />
-            <a href="{fullUrl}" class="screen">
+            <img src="{assetUrl}?format=500w" alt="" class="fill" />
+            <a href="/lab/" class="screen">
 
                 <div class="center-outer border">
                     <div class="center-middle">
                         <div class="center-inner">  
-                            <small>Featured Project</small>     
+                            <small>Recently Made In The Lab</small> 
+                            {.if title}    
                             <h2>{title}</h2>
+                            {.end}
                         </div>
                     </div>
                 </div>                    
