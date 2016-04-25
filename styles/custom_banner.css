@@ -155,7 +155,7 @@
 
 
 .show-cart-page #main-navigation a:link, 
-.show-cart-page #main-navigation a:visited 
+.show-cart-page #main-navigation a:visited,
 #no-banner-wrapper #main-navigation a:link, 
 #no-banner-wrapper #main-navigation a:visited {
     color: rgba(0,0,0,.8) !important;
