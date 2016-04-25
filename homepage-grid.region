@@ -145,7 +145,32 @@
             <div class="center-middle">
                 <div class="center-inner">  
                 
-                    {@|apply mailchimp.block}
+                    <div id="mc_embed_signup">
+                        <form action=
+                        "//50dresses.us2.list-manage.com/subscribe/post?u=bf457f961eee1201c74374475&amp;id=ca61504bc1"
+                        class="validate" id="mc-embedded-subscribe-form" method="post" name=
+                        "mc-embedded-subscribe-form" novalidate="" target="_blank">
+                            <div id="mc_embed_signup_scroll">
+                                <h2>Newsletter Sign Up</h2>   
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                    <input name="b_bf457f961eee1201c74374475_ca61504bc1" tabindex=
+                                    "-1" type="text" value="">
+                                </div>
+                                <div class="mc-field-group">
+                                    <input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value="" placeholder="Email Address">
+                                    <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe">
+                                </div>
+                                <div class="clear" id="mce-responses">
+                                    <div class="response" id="mce-error-response" style=
+                                    "display:none"></div>
+                                    <div class="response" id="mce-success-response" style=
+                                    "display:none"></div>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
 
                 </div>
             </div>
