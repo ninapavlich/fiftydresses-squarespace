@@ -61,7 +61,7 @@
     </div>
     <div class="grid-item section double">
 
-        <squarespace:query collection="shop" limit="1">
+        <squarespace:query collection="products" limit="1">
         <div class="inner-grid-item reverse">            
             <a href="{collection.fullUrl}" class="fill">
                 <div class="center-outer border">
@@ -75,8 +75,6 @@
             </a>
         </div>
         </squarespace:query>   
-        
-
         
     </div>
     <div class="grid-item section double">
