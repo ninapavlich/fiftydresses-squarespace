@@ -19,28 +19,52 @@
   
 
 <section class="inner-container">
-  <div id="productWrapper">
-    
-    <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
-    <div id="productDetails">
-      {@|product-status}
 
-      {@|product-price}
+  <div class="col-9-12">
+    <div id="productWrapper">
+      
+      <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
+      <div id="productDetails">
+        {@|product-status}
 
-      {.excerpt?}
-        <div class="product-excerpt">
-          {excerpt}
-        </div>
-      {.end}
+        {@|product-price}
 
-      {@|product-checkout}
+        {.excerpt?}
+          <div class="product-excerpt">
+            {excerpt}
+          </div>
+        {.end}
+
+        {@|product-checkout}
+      </div>
+
+      <!-- This displays any text/blocks added to the Additional Info tab -->
+      {.section body}
+      <div class="product-description">
+        {@}
+      </div>
+
     </div>
-
-    <!-- This displays any text/blocks added to the Additional Info tab -->
-    {.section body}
-    <div class="product-description">
-      {@}
-    </div>
-
   </div>
+  <div class="col-3-12">
+    <div class="sidebar">
+      {.section collection}
+        <ul>
+          <squarespace:query collection="products" limit="1">
+              <li>
+                  <a href="{collection.fullUrl}">products {collection.title}</a>
+              </li>
+          </squarespace:query>
+          <squarespace:query collection="shop" limit="1">
+              <li>
+                  <a href="{collection.fullUrl}">shop {collection.title}</a>
+              </li>
+          </squarespace:query>
+          <squarespace:query collection="product" limit="1">
+              <li>
+                  <a href="{collection.fullUrl}">product {collection.title}</a>
+              </li>
+          </squarespace:query>
+        </ul>       
+    </div>
 {.end}
