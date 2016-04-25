@@ -508,3 +508,19 @@
   width:100%;
   float:none;
 }
+#productDetails .product-price{
+  font-weight: bold;
+  color:#000;
+}
+body:not(.button-style-default).button-corner-style-square .sqs-editable-button{
+  color: #fff !important;
+}
+.sqs-pill-shopping-cart-content.dark{
+  height:48px;
+}
+
+@media (min-width: 700px) {
+  .top-navigation-position-above-banner .absolute-cart-box {
+    top: 45px;
+  }
+}
