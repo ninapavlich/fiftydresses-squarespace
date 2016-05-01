@@ -152,7 +152,14 @@
     background-color: #666;
 }
     
-    
+.bottom-filler{
+    padding:1em;
+}  
+.bottom-filler > div{
+    margin: 2.5%;
+    height: 90%;
+    overflow: hidden;
+}
 
 @media (max-width: 700px) {
     .grid-item, .inner-grid-item {
