@@ -3,6 +3,10 @@
     <ul class="contain">
       <li>Filter</li>
 
+      <li>{.if categoryFilter}CATEGORY FILTER{.end}</li>
+      <li>{.if category}CATEGORY{.end}</li>
+      <li>{.if filter}FILTER{.end}</li>
+
       <li><a href="{fullUrl}" {.if categoryFilter}{.or} class="active all"{.end}>All</a></li>
       {.repeated section @}
         <li><a href="{fullUrl}?category={@|url-encode}" {.equal? categoryFilter @} class="active"{.end}>{@}</a></li>
