@@ -108,11 +108,11 @@
 .grid-item.reverse h4, 
 .grid-item.reverse h5, 
 .grid-item.reverse h6
-.reverse .inner-grid-item h2, 
-.reverse .inner-grid-item h3, 
-.reverse .inner-grid-item h4, 
-.reverse .inner-grid-item h5, 
-.reverse .inner-grid-item h6 {
+.inner-grid-item.reverse  h2, 
+.inner-grid-item.reverse  h3, 
+.inner-grid-item.reverse  h4, 
+.inner-grid-item.reverse  h5, 
+.inner-grid-item.reverse  h6 {
     color:#F9F9F9;
 }
 
@@ -137,7 +137,10 @@
     border: 1px solid #444;
 }
 
-
+.grid-item.reverse a.fill,
+.inner-grid-item.reverse  a.fill{
+    background-color: #222;
+}
 .grid-item.reverse a.fill:hover,
 .inner-grid-item.reverse  a.fill:hover{
     background-color: #666;
