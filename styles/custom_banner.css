@@ -167,6 +167,13 @@ body.banner-content-page-title-description #page-title-wrapper{
   height:auto !important;
   padding:0 !important;
 }
+#no-banner-wrapper #page-description p{
+    margin-left: 0;
+}
+#page-description p{
+    color: #999;
+}
+
 
 .show-cart-page #main-navigation a:link, 
 .show-cart-page #main-navigation a:visited,
