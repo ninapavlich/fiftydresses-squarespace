@@ -43,6 +43,10 @@
     height: 90%;
     margin: 5%;
 }
+.grid-item.reverse .center-outer.border,
+.inner-grid-item.reverse .center-outer.border{
+    border-color:rgba(255, 255, 255, 0.3);
+}
 
 .grid-item img.fill {
     position: absolute;
