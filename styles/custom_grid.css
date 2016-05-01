@@ -50,8 +50,8 @@
     z-index: -1;
 }
 .grid-item img.logo{
-    width: 1000px;
-    margin: 4em auto;
+    width: 700px;
+    margin: 6em auto;
     display: block;
 }
 .grid-item a.fill,
