@@ -27,6 +27,7 @@
     text-transform: uppercase;
     color: #cfcfcf !important;
     letter-spacing: 3px;
+    font-size: 12px;
 }
 .grid-item .center-inner,
 .inner-grid-item .center-inner{
