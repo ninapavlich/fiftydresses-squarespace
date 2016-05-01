@@ -112,6 +112,11 @@
     color:#F9F9F9;
 }
 
+.inner-grid-item.top h2 {
+    color:#FFF;
+    text-transform: uppercase;
+}
+
 .grid-item.reverse,
 .inner-grid-item.reverse{
     background-color:#222;
