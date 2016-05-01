@@ -43,6 +43,11 @@
     max-width: 800px;
 }
 
+#page-description p{
+    margin-left: 0;
+    color: #999;
+}
+
 /* FOOTER */
 #page-footer{
     text-align: left !important;
