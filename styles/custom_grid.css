@@ -113,8 +113,11 @@
 }
 
 .inner-grid-item.top h2 {
-    color:#FFF;
+    color: #fff;
     text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 3px;
+    font-weight: 100;
 }
 
 .grid-item.reverse,
