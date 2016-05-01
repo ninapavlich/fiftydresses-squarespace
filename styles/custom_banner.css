@@ -122,7 +122,8 @@ body.banner-content-page-title-description #page-title-wrapper{
   color:rgba(255, 255, 255, 0.7);
 }
 .subnav ul li a.subnav-active{
-  border-bottom:1px solid rgba(255, 255, 255, 0.3);
+  color:#fff;
+  border-bottom:1px solid rgba(255, 255, 255, 1);
 }
 .subnav ul li a:hover{
   color:rgba(255, 255, 255, 1);
