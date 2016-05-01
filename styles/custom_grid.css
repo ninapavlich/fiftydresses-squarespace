@@ -13,19 +13,20 @@
 .grid-item small, 
 .inner-grid-item small{
 
-    text-transform: uppercase;
-    color: #cfcfcf !important;
     border-bottom: 1px solid #cfcfcf;
     margin-bottom: 0.5em;
     display: inline-block;
-    letter-spacing: 3px;
 }
+
+.grid-item small, 
+.inner-grid-item small,
 .grid-item .description,
 .grid-item .description *,
 .inner-grid-item .description,
 .inner-grid-item .description *{
+    text-transform: uppercase;
     color: #cfcfcf !important;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .grid-item .center-inner,
 .inner-grid-item .center-inner{
