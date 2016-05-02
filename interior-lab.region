@@ -27,7 +27,7 @@
 
 
     <h2>See What Others Have Made</h2>
-    <squarespace:query collection="lab-projects-gallery" >
+    <squarespace:query collection="lab-projects-gallery" limit="100">
     {@|apply gallery.block}
     </squarespace:query>
 
